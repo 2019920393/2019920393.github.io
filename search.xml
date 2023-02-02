@@ -4,11 +4,86 @@
   
     
     <entry>
-      <title>操作系统-操作系统的运行机制和体系结构</title>
-      <link href="/posts/436a7ad8.html"/>
-      <url>/posts/436a7ad8.html</url>
+      <title>操作系统-操作系统进程的定义组成组织方式特征</title>
+      <link href="/posts/a4db76fd.html"/>
+      <url>/posts/a4db76fd.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="操作系统进程的定义组成组织方式特征"><a href="#操作系统进程的定义组成组织方式特征" class="headerlink" title="操作系统进程的定义组成组织方式特征"></a>操作系统进程的定义组成组织方式特征</h1><h2 id="进程的定义"><a href="#进程的定义" class="headerlink" title="进程的定义"></a>进程的定义</h2><p>程序：一个指令序列</p><p><img src="/../static/OS/5.12.png" alt="5.12"></p><p><img src="/../static/OS/5.13.png" alt="5.13"></p><h2 id="进程-进程实体-的组成"><a href="#进程-进程实体-的组成" class="headerlink" title="进程(进程实体)的组成"></a>进程(进程实体)的组成</h2><p>程序段，数据段，PCB</p><p><img src="/../static/OS/5.14.png" alt="5.14"></p><p>PCB所包含的信息</p><p><img src="/../static/OS/5.15.png" alt="5.15"></p><h2 id="进程的组织"><a href="#进程的组织" class="headerlink" title="进程的组织"></a>进程的组织</h2><p><img src="/../static/OS/5.16.png" alt="5.16"></p><p><img src="/../static/OS/5.17.png" alt="5.17"></p><p><img src="/../static/OS/5.18.png" alt="5.18"></p><h2 id="进程的特征"><a href="#进程的特征" class="headerlink" title="进程的特征"></a>进程的特征</h2><p><img src="/../static/OS/5.19.png" alt="5.19"></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p><img src="/../static/OS/5.20.png" alt="5.20"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统的系统调用</title>
+      <link href="/posts/d8b653d0.html"/>
+      <url>/posts/d8b653d0.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="系统调用"><a href="#系统调用" class="headerlink" title="系统调用"></a>系统调用</h1><h2 id="什么是系统调用，有何作用？"><a href="#什么是系统调用，有何作用？" class="headerlink" title="什么是系统调用，有何作用？"></a>什么是系统调用，有何作用？</h2><p><img src="/../static/OS/5.7.png" alt="5.7"></p><h2 id="系统调用与库函数的区别"><a href="#系统调用与库函数的区别" class="headerlink" title="系统调用与库函数的区别"></a>系统调用与库函数的区别</h2><p><img src="/../static/OS/5.8.png" alt="5.8"></p><h2 id="系统调用背后的过程"><a href="#系统调用背后的过程" class="headerlink" title="系统调用背后的过程"></a>系统调用背后的过程</h2><p>​<img src="/../static/OS/5.10.png" alt="5.10"></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p><img src="/../static/OS/5.11.png" alt="5.11"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统的中断和异常</title>
+      <link href="/posts/b87d75b9.html"/>
+      <url>/posts/b87d75b9.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="中断和异常"><a href="#中断和异常" class="headerlink" title="中断和异常"></a>中断和异常</h1><h2 id="中断的本质："><a href="#中断的本质：" class="headerlink" title="中断的本质："></a>中断的本质：</h2><p>发生<strong>中断</strong>就意味着需要<strong>操作系统的介入</strong>，<strong>开展管理工作</strong>。</p><p>当中断发生是，cpu立即进入核心态</p><p>当中断发生后，当前运行的进程暂停运行，并由操作系统对中断进行处理。</p><p>对于不同的中断信号，会进行不同的处理</p><p><strong>用户态到核心态的切换：通过中断实现的，并且<em>中断</em>是唯一途径。</strong></p><p><strong>核心态到用户态的切换</strong>：<strong>执行一条特权指令，设置程序状态字PSW为用户态。</strong></p><h3 id="中断的分类"><a href="#中断的分类" class="headerlink" title="中断的分类"></a>中断的分类</h3><p><img src="/../static/OS/5.3.png" alt="5.3"></p><p><img src="/../static/OS/5.4.png" alt="5.4"></p><h3 id="外中断的处理过程："><a href="#外中断的处理过程：" class="headerlink" title="外中断的处理过程："></a>外中断的处理过程：</h3><p><img src="/../static/OS/5.6.png" alt="5.6"></p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><img src="/../static/OS/5.5.png" alt="5.5"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统的运行机制与体系结构</title>
+      <link href="/posts/859eb638.html"/>
+      <url>/posts/859eb638.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="操作系统的运行机制与体系结构"><a href="#操作系统的运行机制与体系结构" class="headerlink" title="操作系统的运行机制与体系结构"></a>操作系统的运行机制与体系结构</h1><p><img src="/../static/OS/5.png" alt="5"></p><p>指令：</p><p>特权指令：如内存清零指令 不允许用户程序使用</p><p>非特权指令：如普通的运算指令 </p><p>处理器的两种状态(用程序状态寄存器PSW中的某标志位来标识当前状态，如0为用户态，1为核心态)：</p><p>用户态(目态)：此时CPU只能执行非特权指令</p><p>核心态(管态)：此时CPU可以执行特权指令非特权指令</p><p>两种程序：</p><p>内核程序：操作系统的内核程序是系统的管理者，既可以执行特权指令，也可以执行非特权指令，运行在核心态；</p><p>应用程序：为了保证系统安全，只能执行非特权指令，运行在用户态</p><h2 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h2><h3 id="内核-是计算机配置的底层软件，是操作系统最基本最核心的部分-："><a href="#内核-是计算机配置的底层软件，是操作系统最基本最核心的部分-：" class="headerlink" title="内核(是计算机配置的底层软件，是操作系统最基本最核心的部分)："></a>内核(是计算机配置的底层<strong>软件</strong>，是操作系统最基本最核心的部分)：</h3><h3 id="实现操作系统内核功能的那些程序就是内核程序。"><a href="#实现操作系统内核功能的那些程序就是内核程序。" class="headerlink" title="实现操作系统内核功能的那些程序就是内核程序。"></a>实现操作系统内核功能的那些程序就是内核程序。</h3><p><strong>时钟管理</strong>：实现计时功能</p><p><strong>中断处理</strong>：实现中断机制</p><p><strong>对系统资源进行管理的功能</strong>(有的操作系统不将这部分功能划分为内核部分，不同系统划分不一样，包含叫大内核，不包含则叫微内核：</p><p>1，进程管理</p><p>2，存储器管理</p><p>3，设备管理等功能、</p><p>**原语(设备驱动，cpu切换…)**：</p><p>1，原语是一种特殊的程序</p><p>2，是最接近硬件的部分</p><p>3，这种程序的运行具有<strong>原子性</strong> –运行是只能一气呵成不能中断</p><p>4，运行时间较短，调用频繁</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><img src="/../static/OS/5.1.png" alt="5.1"></p>]]></content>
       
       
       <categories>
@@ -356,10 +431,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/light.js"/>
-      <url>/js/light.js</url>
+      <link href="/movies/index..html"/>
+      <url>/movies/index..html</url>
       
-        <content type="html"><![CDATA[// 霓虹灯效果// 颜色数组var arr = ["#39c5bb", "#f14747", "#f1a247", "#f1ee47", "#b347f1", "#1edbff", "#ed709b", "#5636ed"];// 颜色索引var idx = 0;// 切换颜色function changeColor() {    // 仅夜间模式才启用    if (document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark') {        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = arr[idx] + " 0 0 10px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = arr[idx] + " 0 0 5px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = arr[idx] + " 0 0 12px";            document.getElementsByClassName("author-info__description")[0].style.textShadow = arr[idx] + " 0 0 12px";        } catch {                    }        idx++;        if (idx == 8) {            idx = 0;        }    } else {        // 白天模式恢复默认        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = "#1e1e1ee0 1px 1px 1px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = "";            document.getElementsByClassName("author-info__description")[0].style.textShadow = "";        } catch {                    }    }}// 开启计时器window.onload = setInterval(changeColor, 1200);]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -378,8 +453,19 @@
     
     <entry>
       <title></title>
-      <link href="/movies/index..html"/>
-      <url>/movies/index..html</url>
+      <link href="/js/light.js"/>
+      <url>/js/light.js</url>
+      
+        <content type="html"><![CDATA[// 霓虹灯效果// 颜色数组var arr = ["#39c5bb", "#f14747", "#f1a247", "#f1ee47", "#b347f1", "#1edbff", "#ed709b", "#5636ed"];// 颜色索引var idx = 0;// 切换颜色function changeColor() {    // 仅夜间模式才启用    if (document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark') {        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = arr[idx] + " 0 0 10px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = arr[idx] + " 0 0 5px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = arr[idx] + " 0 0 12px";            document.getElementsByClassName("author-info__description")[0].style.textShadow = arr[idx] + " 0 0 12px";        } catch {                    }        idx++;        if (idx == 8) {            idx = 0;        }    } else {        // 白天模式恢复默认        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = "#1e1e1ee0 1px 1px 1px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = "";            document.getElementsByClassName("author-info__description")[0].style.textShadow = "";        } catch {                    }    }}// 开启计时器window.onload = setInterval(changeColor, 1200);]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -393,17 +479,6 @@
       <url>/music/index.html</url>
       
         <content type="html"><![CDATA[<p>#歌单</p><div class="aplayer" data-id="1294951288" data-server="netease" data-type="song" data-mutex="true" data-preload="auto" data-theme="#3F51B5"></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
