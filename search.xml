@@ -4,12 +4,118 @@
   
     
     <entry>
+      <title>计算机网络-计算机网络体系结构</title>
+      <link href="/posts/21da0718.html"/>
+      <url>/posts/21da0718.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="计算机网络体系结构"><a href="#计算机网络体系结构" class="headerlink" title="计算机网络体系结构"></a>计算机网络体系结构</h1><h2 id="常见的计算机网络体系结构"><a href="#常见的计算机网络体系结构" class="headerlink" title="常见的计算机网络体系结构"></a>常见的计算机网络体系结构</h2><h3 id="OSI体系结构-法律上的标准-："><a href="#OSI体系结构-法律上的标准-：" class="headerlink" title="OSI体系结构(法律上的标准)："></a>OSI体系结构(法律上的标准)：</h3><p><img src="/../static/jw/16.png" alt="16"></p><h3 id="TCP-x2F-IP体系结构-事实上的国际标准-："><a href="#TCP-x2F-IP体系结构-事实上的国际标准-：" class="headerlink" title="TCP&#x2F;IP体系结构(事实上的国际标准)："></a>TCP&#x2F;IP体系结构(事实上的国际标准)：</h3><p><img src="/../static/jw/18.png" alt="18"></p><h3 id="原理体系结构："><a href="#原理体系结构：" class="headerlink" title="原理体系结构："></a>原理体系结构：</h3><p><img src="/../static/jw/19.png" alt="19"></p><h2 id="计算机网络体系结构分成的必要性"><a href="#计算机网络体系结构分成的必要性" class="headerlink" title="计算机网络体系结构分成的必要性"></a>计算机网络体系结构分成的必要性</h2><p>物理层：使用何种信号来传输比特的问题</p><p>数据链路层：解决在一个网络上传输的问题</p><p>网络层：解决在多个网络上的问题</p><p>运输层: 解决进程之间基于网络通信的问题</p><p>应用层：解决通过应用进程的交互来实现特定的网络应用的问题</p><h2 id="计算机网络体系结构分层思想举例"><a href="#计算机网络体系结构分层思想举例" class="headerlink" title="计算机网络体系结构分层思想举例"></a>计算机网络体系结构分层思想举例</h2><h2 id="计算机网络体系结构中的专用术语"><a href="#计算机网络体系结构中的专用术语" class="headerlink" title="计算机网络体系结构中的专用术语"></a>计算机网络体系结构中的专用术语</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> jw </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机网络 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计算机网络-计算机网络的性能与指标</title>
+      <link href="/posts/939e4f55.html"/>
+      <url>/posts/939e4f55.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="计算机网络的性能与指标"><a href="#计算机网络的性能与指标" class="headerlink" title="计算机网络的性能与指标"></a>计算机网络的性能与指标</h1><h2 id="数据量单位："><a href="#数据量单位：" class="headerlink" title="数据量单位："></a>数据量单位：</h2><p><strong>8bit&#x3D;1Byte</strong></p><p><strong>KB&#x3D;2的十次方B</strong></p><p><strong>MB&#x3D;2的20次方B</strong></p><p><strong>GB&#x3D;2的30次方B</strong></p><h2 id="速率"><a href="#速率" class="headerlink" title="速率"></a>速率</h2><p> 连接在计算机网络上的主机在数字信道上传送比特的速率，也称为<strong>比特率或数据率</strong>。</p><p><img src="/../static/jw/10.png" alt="10"></p><h2 id="带宽"><a href="#带宽" class="headerlink" title="带宽"></a>带宽</h2><h3 id="带宽在模拟信号系统中的意义："><a href="#带宽在模拟信号系统中的意义：" class="headerlink" title="带宽在模拟信号系统中的意义："></a>带宽在模拟信号系统中的意义：</h3><p>信号所包含的各种不同频率成分所占据的频率范围；单位 Hz。</p><h3 id="带宽在计算机网络中的意义："><a href="#带宽在计算机网络中的意义：" class="headerlink" title="带宽在计算机网络中的意义："></a>带宽在计算机网络中的意义：</h3><p>用来表示网络的通信线路所能传送数据的能力，因此网络带宽表示在单位时间内从网络中某一点到另一点所能通过的<strong>最高数据率</strong>；单位 b&#x2F;s kb&#x2F;s Mb&#x2F;s 同速率单位。</p><p>带宽越宽表示传输的最高数据率也越高。</p><h2 id="吞吐量"><a href="#吞吐量" class="headerlink" title="吞吐量"></a>吞吐量</h2><p>吞吐量表示在<strong>单位时间内通过某个网络(或信道，接口)的数据量。</strong></p><p>吞吐量<strong>受网络带宽或额定速率的限制</strong></p><h2 id="时延"><a href="#时延" class="headerlink" title="时延"></a>时延</h2><h3 id="1发送时延"><a href="#1发送时延" class="headerlink" title="1发送时延"></a>1发送时延</h3><p>分组长度(b)&#x2F;发送速率(b&#x2F;s)</p><h3 id="2传播时延"><a href="#2传播时延" class="headerlink" title="2传播时延"></a>2传播时延</h3><p>信道长度(m)&#x2F;电磁波传播速率(m&#x2F;s)          </p><p>电磁波的传播速率： </p><p>在自由空间中：3*10^8 m&#x2F;s</p><p>在铜线中：2.3*10^8 m&#x2F;s</p><p>在光纤中：2.0*10^8 m&#x2F;s</p><h3 id="3处理时延"><a href="#3处理时延" class="headerlink" title="3处理时延"></a>3处理时延</h3><p>一般不方便计算    处理为动态变化。</p><h2 id="时延带宽积"><a href="#时延带宽积" class="headerlink" title="时延带宽积"></a>时延带宽积</h2><p>传播时延*带宽</p><p><img src="/../static/jw/12.png" alt="12"></p><h2 id="往返时间RTT"><a href="#往返时间RTT" class="headerlink" title="往返时间RTT"></a>往返时间RTT</h2><p><img src="/../static/jw/13.png" alt="13"></p><h2 id="利用率"><a href="#利用率" class="headerlink" title="利用率"></a>利用率</h2><h3 id="信道利用率"><a href="#信道利用率" class="headerlink" title="信道利用率"></a>信道利用率</h3><p>用来表示某信道有百分之几的时间是被利用的(有数据通过)</p><h3 id="网络利用率"><a href="#网络利用率" class="headerlink" title="网络利用率"></a>网络利用率</h3><p>全网络的信道利用率的加权平均。</p><h3 id="根据排队论，当某信道的利用率曾大时，该信道引起的时延也会增加"><a href="#根据排队论，当某信道的利用率曾大时，该信道引起的时延也会增加" class="headerlink" title="根据排队论，当某信道的利用率曾大时，该信道引起的时延也会增加"></a>根据排队论，当某信道的利用率曾大时，该信道引起的时延也会增加</h3><h3 id="因此，信道利用率不是越高越好；"><a href="#因此，信道利用率不是越高越好；" class="headerlink" title="因此，信道利用率不是越高越好；"></a>因此，信道利用率不是越高越好；</h3><p><img src="/../static/jw/14.png" alt="14"></p><h2 id="丢包率"><a href="#丢包率" class="headerlink" title="丢包率"></a>丢包率</h2><p>丢包率即分组丢失率，是指在一定的时间范围内，传输过程中丢失的分组数量与总分组数量的比例。</p><p>丢包率具体可分为接口丢包率，结点丢包率，链路丢包率，路劲丢包率，网络丢包率；</p><h4 id="分组丢失："><a href="#分组丢失：" class="headerlink" title="分组丢失："></a>分组丢失：</h4><p>1分组在传输过程中出现误码，被结点丢失。</p><p>2分组到达一台队列已满的分组交换机时被丢弃；在通信量较大是就可能造成<strong>网络堵塞</strong>。</p><p>无拥塞是路劲丢包率0</p><p>轻度拥塞为1%-4%</p><p>严重拥塞为5%-15%</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><img src="/../static/jw/11.png" alt="11"></p><p><img src="/../static/jw/15.png" alt="15"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> jw </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机网络 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统的发展与分类</title>
+      <link href="/posts/899d52e1.html"/>
+      <url>/posts/899d52e1.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="操作系统的发展与分类"><a href="#操作系统的发展与分类" class="headerlink" title="操作系统的发展与分类"></a>操作系统的发展与分类</h1><h2 id="手工操作阶段"><a href="#手工操作阶段" class="headerlink" title="手工操作阶段"></a>手工操作阶段</h2><p>主要缺点：用户独占全机，人机速度矛盾导致资源利用率低。</p><h2 id="批处理阶段-单道批处理系统"><a href="#批处理阶段-单道批处理系统" class="headerlink" title="批处理阶段-单道批处理系统"></a>批处理阶段-单道批处理系统</h2><p>主要优点：缓解了人机，速度矛盾 ，资源利用率提高</p><p>主要缺点：内存中<strong>仅能有一道程序运行</strong>，只有该程序运行结束之后才能调入下一道程序，<strong>CPU有大量时间空闲在等待IO完成</strong>，资源利用率依然很低。</p><h2 id="☆批处理阶段-多道批处理系统"><a href="#☆批处理阶段-多道批处理系统" class="headerlink" title="☆批处理阶段-多道批处理系统"></a><strong>☆</strong>批处理阶段-多道批处理系统</h2><h2 id="操作系统正式诞生，引入了中断技术"><a href="#操作系统正式诞生，引入了中断技术" class="headerlink" title="操作系统正式诞生，引入了中断技术"></a>操作系统正式诞生，引入了中断技术</h2><p>主要优点：多道程序<strong>并发</strong>执行（操作系统负责管理调度资源），<strong>共享</strong>计算机资源，内存中可以读入多道程序。资源利用率大幅度提升，系统吞吐量增大。</p><p>主要缺点：用户响应时间长，没有人机交互功能。</p><h2 id="☆分时操作系统"><a href="#☆分时操作系统" class="headerlink" title="☆分时操作系统"></a><strong>☆</strong>分时操作系统</h2><p>主要优点：<strong>用户请求可以被即时响应，解决人机交互</strong>。允许多个用户使用一台计算机，并且用户对计算机的操作相互独立，感受不到别人的存在。</p><p>主要缺点：<strong>不能优先处理一些紧急任务</strong>，不区分任务的紧急性。</p><h2 id="☆实时操作系统"><a href="#☆实时操作系统" class="headerlink" title="☆实时操作系统"></a><strong>☆</strong>实时操作系统</h2><p>主要优点：能够优先响应一些紧急任务。</p><h3 id="☆硬实时操作系统"><a href="#☆硬实时操作系统" class="headerlink" title="☆硬实时操作系统"></a><strong>☆</strong>硬实时操作系统</h3><p>必须严格在规定的时间内完成处理。</p><h3 id="☆软实时操作系统"><a href="#☆软实时操作系统" class="headerlink" title="☆软实时操作系统"></a><strong>☆</strong>软实时操作系统</h3><p>能偶尔违反时间规定。</p><p><img src="/../static/OS/4.png" alt="4"></p><p><img src="/../static/OS/4.1.png" alt="4.1"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统的特征</title>
+      <link href="/posts/8d9e58a9.html"/>
+      <url>/posts/8d9e58a9.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="操作系统的特征"><a href="#操作系统的特征" class="headerlink" title="操作系统的特征"></a>操作系统的特征</h1><h1 id="并发共享为最基本特征，两者互为存在条件"><a href="#并发共享为最基本特征，两者互为存在条件" class="headerlink" title="(并发共享为最基本特征，两者互为存在条件)"></a>(并发共享为最基本特征，两者互为<strong>存在条件</strong>)</h1><h2 id="并发"><a href="#并发" class="headerlink" title="并发 ***"></a>并发 ***</h2><p>并发：指两个或多个事件在<strong>同一时间间隔内发生</strong>，这些时间宏观上是同时发生，但微观上是<strong>交替发生</strong>的。</p><p>并行：指两个或多个事件<strong>同时发生</strong>。</p><p>操作系统的并发性：指计算机系统中同时存在着多个运行着的程序。</p><h2 id="共享"><a href="#共享" class="headerlink" title="共享 ***"></a>共享 ***</h2><p>共享：即资源共享，是指系统中的资源可供内存中多个并发执行的进程共同使用。</p><p>1 互斥共享：</p><p>​系统中的某些资源，虽然可以提供给多个进程使用，但<strong>一个时间段内只允许一个进程访问该资源</strong>。</p><p>​</p><p>2 同时共享：</p><p>​系统中的某些 资源，允许一个时间段内由<strong>多个进程“同时”对他们进行访问。</strong></p><p>​</p><h2 id="虚拟"><a href="#虚拟" class="headerlink" title="虚拟"></a>虚拟</h2><p>虚拟是指把一个物理上的实体变为若干个逻辑上的对应物。物理实体是实际存在的，而逻辑上的对应物后者是用户感受的。</p><p>虚拟存储技术（空间复用技术）</p><p>虚拟处理器技术（时分复用技术）</p><p><strong>没有并发性，就谈不上虚拟性</strong></p><h2 id="异步"><a href="#异步" class="headerlink" title="异步"></a>异步</h2><p> 异步：</p><pre><code> 是指在多道程序环境下，允许多个程序并发执行，但由于资源有限，进程的执行不是一贯到底的，而是走走停停，以不可预知的速度向前推进，这就是进程的异步性。</code></pre><h3 id="没有并发和共享，就谈不上虚拟和异步，因此并发和共享是操作系统的两个最基本的特征。"><a href="#没有并发和共享，就谈不上虚拟和异步，因此并发和共享是操作系统的两个最基本的特征。" class="headerlink" title="没有并发和共享，就谈不上虚拟和异步，因此并发和共享是操作系统的两个最基本的特征。"></a><strong>没有并发和共享，就谈不上虚拟和异步，因此并发和共享是操作系统的两个最基本的特征。</strong></h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>操作系统-操作系统的概念功能和目标</title>
       <link href="/posts/385b55c.html"/>
       <url>/posts/385b55c.html</url>
       
         <content type="html"><![CDATA[<h1 id="操作系统的概念，功能和目标"><a href="#操作系统的概念，功能和目标" class="headerlink" title="操作系统的概念，功能和目标"></a>操作系统的概念，功能和目标</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p>操作系统是指<strong>控制和管理整个计算机系统的硬件和软件资源</strong>，并<strong>合理地组织调度计算机的工作和资源分配</strong>，<strong>以提供给用户和其他软件方便的接口和环境</strong>，他是计算机系统中最基本的<strong>系统软件</strong>。</p><h2 id="功能和目标"><a href="#功能和目标" class="headerlink" title="功能和目标"></a>功能和目标</h2><h3 id="系统资源的管理者："><a href="#系统资源的管理者：" class="headerlink" title="系统资源的管理者："></a>系统资源的管理者：</h3><p>提供的功能:</p><ol><li><strong>处理机管理</strong> <strong>(CPU管理)</strong></li><li><strong>存储器管理</strong> <strong>(内存管理)</strong></li><li><strong>文件管理</strong></li><li><strong>设备管理</strong>   (例如摄像头)</li></ol><p>目标：</p><ol><li><strong>安全高效</strong></li></ol><h3 id="作为用户和计算机硬件之间的接口"><a href="#作为用户和计算机硬件之间的接口" class="headerlink" title="作为用户和计算机硬件之间的接口"></a>作为用户和计算机硬件之间的接口</h3><p>提供的功能：</p><ol><li><p><strong>命令接口(允许用户直接使用):</strong></p><ul><li>联机命令接口 （j交互式命令接口）：用户说一句 系统做一句   (cmd交互)</li><li>脱机命令接口 （批处理命令接口 ）：用户说一堆 系统做一堆   (.bat文件)</li></ul></li><li><p><strong>程序接口(允许用户通过程序间接使用)</strong>    <strong>(程序接口&#x3D;系统调用&#x3D;广义指令)</strong>      （.dll文件）</p></li><li><p>GUI（图形用户界面）</p></li></ol><p>目标：</p><p>​<strong>方便用户使用</strong></p><h3 id="作为最接近硬件的层次"><a href="#作为最接近硬件的层次" class="headerlink" title="作为最接近硬件的层次"></a>作为最接近硬件的层次</h3><p>提供的功能：<strong>实现对硬件机器的拓展</strong></p><p>目标：</p><p>​方便用户使用</p>]]></content>
       
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
       
       
         <tags>
@@ -30,6 +136,12 @@
         <content type="html"><![CDATA[<h1 id="计算机网络的定义与分离"><a href="#计算机网络的定义与分离" class="headerlink" title="计算机网络的定义与分离"></a>计算机网络的定义与分离</h1><h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p><img src="/../static/jw/7.png" alt="7"></p><h2 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h2><p><img src="/../static/jw/8.png" alt="8"></p>]]></content>
       
       
+      <categories>
+          
+          <category> jw </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -48,6 +160,12 @@
       
         <content type="html"><![CDATA[<h1 id="三种交换方式"><a href="#三种交换方式" class="headerlink" title="三种交换方式"></a>三种交换方式</h1><h2 id="电路交换"><a href="#电路交换" class="headerlink" title="电路交换"></a>电路交换</h2><p>无电话交换机：  电话22相连 需要n*(n-1)&#x2F;2这么多线。</p><ul><li><p>电话交换机接通电话线的方式称为电路交换；</p></li><li><p>从通信资源的分配角度来看，交换就是按照某种方式动态的分配传输线路的资源</p></li><li><p>电路交换的三个步骤</p><p>1 建立连接(分配资源)</p><p>2 通话(一直占用通信资源)</p><p>3 释放连接(归还通信资源)</p></li><li><p>能否用电路交换来传输计算机数据</p><p>答：不行，通信效率低</p></li></ul><h2 id="分组交换"><a href="#分组交换" class="headerlink" title="分组交换"></a>分组交换</h2><p><img src="/../static/jw/5.png" alt="5"></p><h2 id="报文交换"><a href="#报文交换" class="headerlink" title="报文交换"></a>报文交换</h2><p>用于早起电报通信网</p><p>不限制报文大小 需要各结点交换机都具有较大的缓存空间</p><h2 id="三种交换方式的对比"><a href="#三种交换方式的对比" class="headerlink" title="三种交换方式的对比"></a>三种交换方式的对比</h2><p><img src="/../static/jw/6.png" alt="6"></p>]]></content>
       
+      
+      <categories>
+          
+          <category> jw </category>
+          
+      </categories>
       
       
         <tags>
@@ -68,6 +186,12 @@
         <content type="html"><![CDATA[<h1 id="因特网的概述"><a href="#因特网的概述" class="headerlink" title="因特网的概述"></a>因特网的概述</h1><h2 id="1网络，互联网和因特网"><a href="#1网络，互联网和因特网" class="headerlink" title="1网络，互联网和因特网"></a>1网络，互联网和因特网</h2><ul><li>网络由若干个<strong>结点</strong>和连接这些结点的<strong>链路</strong>组成</li><li>多个网络还可以通过路由器互联起来，这样就构成了一个覆盖范围更大的网络，即互联网。因此，互联网是<strong>网络的网络</strong>。</li><li>因特网是世界上最大的互连网络。</li><li><img src="E:/blog/source/static/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E5%9B%A0%E7%89%B9%E7%BD%91%E7%9A%84%E6%A6%82%E8%BF%B01.png" alt="因特网的概述1"></li><li><img src="E:/blog/source/static/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E5%9B%A0%E7%89%B9%E7%BD%91%E7%9A%84%E6%A6%82%E8%BF%B02.png" alt="因特网的概述2"></li></ul><h2 id="2因特网发展的三个阶段"><a href="#2因特网发展的三个阶段" class="headerlink" title="2因特网发展的三个阶段"></a>2因特网发展的三个阶段</h2><p><img src="/../static/jw/3.png" alt="因特网的概述3"></p><p>因特网服务提供者(中国)：电信 联通 移动</p><h2 id="3因特网的标准化工作"><a href="#3因特网的标准化工作" class="headerlink" title="3因特网的标准化工作"></a>3因特网的标准化工作</h2><p><img src="/../static/jw/4.png" alt="4"></p><p>只有少部分RFC文档成为因特网标准。</p><h2 id="4因特网的组成"><a href="#4因特网的组成" class="headerlink" title="4因特网的组成"></a>4因特网的组成</h2><ul><li><p>边缘部分</p><p>由所有连接在因特网上的<strong>主机</strong>组成，这部分是<strong>用户直接使用</strong>的，用来进行<strong>通信</strong>和<strong>资源共享</strong></p></li><li><p>核心部分</p><p>由<strong>大量网络</strong>和连接这些网络的<strong>路由器</strong>组成。这部分是<strong>为边缘部分提供服务</strong>的(提供连通性和交换)</p></li></ul>]]></content>
       
       
+      <categories>
+          
+          <category> jw </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -84,7 +208,7 @@
       <link href="/posts/3d706849.html"/>
       <url>/posts/3d706849.html</url>
       
-        <content type="html"><![CDATA[<p><strong>scanf()</strong> 可输入不包含空格的字符串，不读取回车，空格和回车表示输入完毕。</p><p><strong>getchar()</strong> 只能读取用户输入缓存区的一个字符，包括回车。</p><p>**getline()**用法:</p><p>它遇到以下情况发生会导致生成的本字符串结束：<br>(1)到文件结束，(2)遇到函数的定界符，(3)输入达到最大限度</p><h2 id="万能头文件"><a href="#万能头文件" class="headerlink" title="万能头文件"></a>万能头文件</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br></pre></td></tr></table></figure><h2 id="结构体"><a href="#结构体" class="headerlink" title="结构体"></a>结构体</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> 结构体类型名字（<span class="type">int</span>） &#123;</span><br><span class="line">    <span class="type">int</span> id;</span><br><span class="line">    <span class="type">double</span> dd;</span><br><span class="line">&#125;结尾可以直接命名;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">typedef  结构体类型名字 &#123;</span><br><span class="line">内容</span><br><span class="line">&#125;stl(这里是相当于给结构体换了个名字,与上面不同);</span><br></pre></td></tr></table></figure><p><img src="/../static/%E7%BB%93%E6%9E%84%E4%BD%93.png" alt="结构体"></p><p><img src="/../static/%E9%87%8D%E8%BD%BD%E7%BB%93%E6%9E%84%E4%BD%93%E8%BF%90%E7%AE%97%E7%AC%A6.png" alt="重载结构体运算符"></p><h1 id="STL库"><a href="#STL库" class="headerlink" title="STL库"></a>STL库</h1><h3 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h3><p><img src="/../static/%E5%AD%97%E7%AC%A6%E4%B8%B2.png" alt="字符串"></p><p>cin cout遇到空格就停止<img src="/../static/%E8%AF%BB%E5%85%A5.png" alt="读入"></p><h2 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h2><h3 id="头文件-include-万能头文件中包含"><a href="#头文件-include-万能头文件中包含" class="headerlink" title="头文件#include  万能头文件中包含"></a>头文件#include<stack>  万能头文件中包含</h3><h3 id="命名空间-std-后进先出"><a href="#命名空间-std-后进先出" class="headerlink" title="命名空间 std 后进先出"></a>命名空间 std 后进先出</h3><p>定义一个int型的栈  </p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">stack&lt;<span class="type">int</span>&gt; s;</span><br><span class="line">s.<span class="built_in">push</span>(<span class="number">1</span>);<span class="comment">//入栈</span></span><br><span class="line">s.<span class="built_in">pop</span>();<span class="comment">//弹出 无返回值</span></span><br><span class="line"><span class="type">int</span> stacktop = s.<span class="built_in">top</span>();<span class="comment">//取栈首</span></span><br><span class="line"><span class="type">bool</span> isempty = s.<span class="built_in">empty</span>();<span class="comment">//判断栈内是否为空;</span></span><br><span class="line"><span class="type">int</span> stacksize = s.<span class="built_in">size</span>();<span class="comment">//栈内元素数</span></span><br></pre></td></tr></table></figure><h2 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h2><h3 id="include-万能头文件中包含"><a href="#include-万能头文件中包含" class="headerlink" title="#include 万能头文件中包含"></a>#include<queue> 万能头文件中包含</h3><h3 id="命名空间-std-先进先出"><a href="#命名空间-std-先进先出" class="headerlink" title="命名空间 std 先进先出"></a>命名空间 std 先进先出</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">queue&lt;<span class="type">int</span>&gt; q;<span class="comment">//定义一个队列</span></span><br><span class="line">q.<span class="built_in">push</span>(<span class="number">1</span>);<span class="comment">//入队</span></span><br><span class="line">q.<span class="built_in">pop</span>();<span class="comment">//弹出</span></span><br><span class="line"><span class="type">int</span> qfront = q.<span class="built_in">front</span>();<span class="comment">//取队首</span></span><br><span class="line"><span class="type">int</span> qback = q.<span class="built_in">back</span>();<span class="comment">//取队尾</span></span><br><span class="line"><span class="type">bool</span> isempty = q.<span class="built_in">empty</span>();<span class="comment">//判断队内是否为空;</span></span><br><span class="line"><span class="type">int</span> qsize = q.<span class="built_in">size</span>();<span class="comment">//队内元素数量</span></span><br></pre></td></tr></table></figure><h2 id="优先队列"><a href="#优先队列" class="headerlink" title="优先队列"></a>优先队列</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">priority_queue&lt;<span class="type">int</span>&gt; p;</span><br><span class="line">默认大顶端,先输出大数据</span><br></pre></td></tr></table></figure><p><img src="/../static/%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97.png" alt="优先队列"></p><h2 id="双端队列"><a href="#双端队列" class="headerlink" title="双端队列"></a>双端队列</h2><p><img src="/../static/%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97.png" alt="双端队列"></p><h2 id="向量"><a href="#向量" class="headerlink" title="向量"></a>向量</h2><p><img src="/../static/%E5%90%91%E9%87%8F.png" alt="向量"></p><h2 id="map"><a href="#map" class="headerlink" title="map"></a>map</h2><p><img src="/../static/map.png" alt="map"></p><h2 id="集合"><a href="#集合" class="headerlink" title="集合"></a>集合</h2><p><img src="/../static/%E9%9B%86%E5%90%88.png" alt="集合"></p><h2 id="表"><a href="#表" class="headerlink" title="表"></a>表</h2><p><img src="/../static/%E8%A1%A8.png" alt="表"></p><p><img src="/../static/%E8%A1%A82.png" alt="表2"></p>]]></content>
+        <content type="html"><![CDATA[<p><strong>scanf()</strong> 可输入不包含空格的字符串，不读取回车，空格和回车表示输入完毕。</p><p><strong>getchar()</strong> 只能读取用户输入缓存区的一个字符，包括回车。</p><p>**getline()**用法:</p><p>它遇到以下情况发生会导致生成的本字符串结束：<br>(1)到文件结束，(2)遇到函数的定界符，(3)输入达到最大限度</p><h2 id="万能头文件"><a href="#万能头文件" class="headerlink" title="万能头文件"></a>万能头文件</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br></pre></td></tr></table></figure><h2 id="结构体"><a href="#结构体" class="headerlink" title="结构体"></a>结构体</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> 结构体类型名字（<span class="type">int</span>） &#123;</span><br><span class="line">    <span class="type">int</span> id;</span><br><span class="line">    <span class="type">double</span> dd;</span><br><span class="line">&#125;结尾可以直接命名;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">typedef  结构体类型名字 &#123;</span><br><span class="line">内容</span><br><span class="line">&#125;stl(这里是相当于给结构体换了个名字,与上面不同);</span><br></pre></td></tr></table></figure><p><img src="/../static/%E7%BB%93%E6%9E%84%E4%BD%93.png" alt="结构体"></p><p><img src="/../static/Algorithm/%E9%87%8D%E8%BD%BD%E7%BB%93%E6%9E%84%E4%BD%93%E8%BF%90%E7%AE%97%E7%AC%A6.png" alt="重载结构体运算符"></p><h1 id="STL库"><a href="#STL库" class="headerlink" title="STL库"></a>STL库</h1><h3 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h3><p><img src="/../static/Algorithm/%E5%AD%97%E7%AC%A6%E4%B8%B2.png" alt="字符串"></p><p>cin cout遇到空格就停止<img src="/../static/Algorithm/%E8%AF%BB%E5%85%A5.png" alt="读入"></p><h2 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h2><h3 id="头文件-include-万能头文件中包含"><a href="#头文件-include-万能头文件中包含" class="headerlink" title="头文件#include  万能头文件中包含"></a>头文件#include<stack>  万能头文件中包含</h3><h3 id="命名空间-std-后进先出"><a href="#命名空间-std-后进先出" class="headerlink" title="命名空间 std 后进先出"></a>命名空间 std 后进先出</h3><p>定义一个int型的栈  </p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">stack&lt;<span class="type">int</span>&gt; s;</span><br><span class="line">s.<span class="built_in">push</span>(<span class="number">1</span>);<span class="comment">//入栈</span></span><br><span class="line">s.<span class="built_in">pop</span>();<span class="comment">//弹出 无返回值</span></span><br><span class="line"><span class="type">int</span> stacktop = s.<span class="built_in">top</span>();<span class="comment">//取栈首</span></span><br><span class="line"><span class="type">bool</span> isempty = s.<span class="built_in">empty</span>();<span class="comment">//判断栈内是否为空;</span></span><br><span class="line"><span class="type">int</span> stacksize = s.<span class="built_in">size</span>();<span class="comment">//栈内元素数</span></span><br></pre></td></tr></table></figure><h2 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h2><h3 id="include-万能头文件中包含"><a href="#include-万能头文件中包含" class="headerlink" title="#include 万能头文件中包含"></a>#include<queue> 万能头文件中包含</h3><h3 id="命名空间-std-先进先出"><a href="#命名空间-std-先进先出" class="headerlink" title="命名空间 std 先进先出"></a>命名空间 std 先进先出</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">queue&lt;<span class="type">int</span>&gt; q;<span class="comment">//定义一个队列</span></span><br><span class="line">q.<span class="built_in">push</span>(<span class="number">1</span>);<span class="comment">//入队</span></span><br><span class="line">q.<span class="built_in">pop</span>();<span class="comment">//弹出</span></span><br><span class="line"><span class="type">int</span> qfront = q.<span class="built_in">front</span>();<span class="comment">//取队首</span></span><br><span class="line"><span class="type">int</span> qback = q.<span class="built_in">back</span>();<span class="comment">//取队尾</span></span><br><span class="line"><span class="type">bool</span> isempty = q.<span class="built_in">empty</span>();<span class="comment">//判断队内是否为空;</span></span><br><span class="line"><span class="type">int</span> qsize = q.<span class="built_in">size</span>();<span class="comment">//队内元素数量</span></span><br></pre></td></tr></table></figure><h2 id="优先队列"><a href="#优先队列" class="headerlink" title="优先队列"></a>优先队列</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">priority_queue&lt;<span class="type">int</span>&gt; p;</span><br><span class="line">默认大顶端,先输出大数据</span><br></pre></td></tr></table></figure><p><img src="/../static/Algorithm/%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97.png" alt="优先队列"></p><h2 id="双端队列"><a href="#双端队列" class="headerlink" title="双端队列"></a>双端队列</h2><p><img src="/../static/Algorithm/%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97.png" alt="双端队列"></p><h2 id="向量"><a href="#向量" class="headerlink" title="向量"></a>向量</h2><p><img src="/../static/Algorithm/%E5%90%91%E9%87%8F.png" alt="向量"></p><h2 id="map"><a href="#map" class="headerlink" title="map"></a>map</h2><p><img src="/../static/Algorithm/map.png" alt="map"></p><h2 id="集合"><a href="#集合" class="headerlink" title="集合"></a>集合</h2><p><img src="/../static/Algorithm/%E9%9B%86%E5%90%88.png" alt="集合"></p><h2 id="表"><a href="#表" class="headerlink" title="表"></a>表</h2><p><img src="/../static/Algorithm/%E8%A1%A8.png" alt="表"></p><p><img src="/../static/Algorithm/%E8%A1%A82.png" alt="表2"></p>]]></content>
       
       
       <categories>
@@ -139,6 +263,12 @@
         <content type="html"><![CDATA[<h1 id="快速排序算法"><a href="#快速排序算法" class="headerlink" title="快速排序算法"></a>快速排序算法</h1><h2 id="思想（分治）："><a href="#思想（分治）：" class="headerlink" title="思想（分治）："></a>思想（分治）：</h2><p>1.确定基准值(一般选择中间值);</p><p>2.排序(左边的值小于基准值，右边的值大于基准值)</p><p>3.递归处理.</p><h2 id="快速排序的特点及性能"><a href="#快速排序的特点及性能" class="headerlink" title="快速排序的特点及性能"></a>快速排序的特点及性能</h2><p>时间复杂度：最坏的情况下O(n²),平均时间复杂度(nlogn)。</p><p>快速排序是一个不稳定的算法，在经过排序之后，可能会对相同值的元素的相对位置造成改变。</p><p>快速排序基本上被认为是相同数量级的所有排序算法中，平均性能最好的。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">1e6</span>+<span class="number">10</span>;</span><br><span class="line"><span class="type">int</span> q[N];</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">quick_sort</span><span class="params">(<span class="type">int</span> q[],<span class="type">int</span> l,<span class="type">int</span> r)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(l&gt;=r) <span class="keyword">return</span>;</span><br><span class="line">    <span class="type">int</span> x=q[(l+r)/<span class="number">2</span>];</span><br><span class="line">    <span class="type">int</span> i=l<span class="number">-1</span>;</span><br><span class="line">    <span class="type">int</span> j=r+<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span>(i&lt;j)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">do</span> i++;<span class="keyword">while</span>(q[i]&lt;x);</span><br><span class="line">        <span class="keyword">do</span> j--;<span class="keyword">while</span>(q[j]&gt;x);</span><br><span class="line">        <span class="keyword">if</span>(i&lt;j) <span class="built_in">swap</span>(q[i],q[j]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">quick_sort</span>(q,l,j);</span><br><span class="line">    <span class="built_in">quick_sort</span>(q,j+<span class="number">1</span>,r);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    cin &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i ++ )</span><br><span class="line">    &#123;</span><br><span class="line">        cin &gt;&gt; q[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">quick_sort</span>(q,<span class="number">0</span>,n<span class="number">-1</span>);</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i ++ )</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; q[i] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       
       
+      <categories>
+          
+          <category> algorithm </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -156,9 +286,9 @@
     
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title></title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -167,20 +297,9 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
-      
-        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: transparent !important;  }  #page-header {    background: transparent !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }  /* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */@font-face {  font-family: "yyyy";  font-weight: 400;  src: url("/font/1.woff");  font-style: normal;  font-display: block;}/* 翻页按钮居中 */#pagination {  width: 100%;  margin: auto;}/* 导航栏魔改 *//* 夜间模式菜单栏发光字 */[data-theme="dark"] #nav .site-page,[data-theme="dark"] #nav .menus_items .menus_item .menus_item_child li a {  text-shadow: 0 0 2px var(rgb(127 255 212)) !important;}/* 手机端适配 */[data-theme="dark"] #sidebar #sidebar-menus .menus_items .site-page {  text-shadow: 0 0 2px var(rgb(127 255 212)) !important;}/* 闪烁变动颜色连续渐变 */#site-name,#site-title,#site-subtitle,#post-info,.author-info__name,.author-info__description {  transition: text-shadow 1s linear !important;}/* 导航栏魔改 *//* 一级菜单居中 */#nav .menus_items {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%) !important;}/* 子菜单横向展示 */#nav .menus_items .menus_item:hover .menus_item_child {  display: flex !important;}/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */.menus_items .menus_item:nth-child(5) .menus_item_child {  left: -50px;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -200,11 +319,11 @@
     
     
     <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: transparent !important;  }  #page-header {    background: transparent !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }  /* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */@font-face {  font-family: "yyyy";  font-weight: 400;  src: url("/font/1.woff");  font-style: normal;  font-display: block;}/* 翻页按钮居中 */#pagination {  width: 100%;  margin: auto;}/* 导航栏魔改 *//* 夜间模式菜单栏发光字 */[data-theme="dark"] #nav .site-page,[data-theme="dark"] #nav .menus_items .menus_item .menus_item_child li a {  text-shadow: 0 0 2px var(rgb(127 255 212)) !important;}/* 手机端适配 */[data-theme="dark"] #sidebar #sidebar-menus .menus_items .site-page {  text-shadow: 0 0 2px var(rgb(127 255 212)) !important;}/* 闪烁变动颜色连续渐变 */#site-name,#site-title,#site-subtitle,#post-info,.author-info__name,.author-info__description {  transition: text-shadow 1s linear !important;}/* 导航栏魔改 *//* 一级菜单居中 */#nav .menus_items {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%) !important;}/* 子菜单横向展示 */#nav .menus_items .menus_item:hover .menus_item_child {  display: flex !important;}/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */.menus_items .menus_item:nth-child(5) .menus_item_child {  left: -50px;}]]></content>
       
     </entry>
     
@@ -227,6 +346,17 @@
       <url>/js/runtime.js</url>
       
         <content type="html"><![CDATA[setInterval(() => {    let create_time = Math.round(new Date('2023-01-12 00:00:00').getTime() / 1000); //在此行修改建站时间    let timestamp = Math.round((new Date().getTime()) / 1000);    let second = timestamp - create_time;    let time = new Array(0, 0, 0, 0, 0);      var nol = function(h){      return h>9?h:'0'+h;    }    if (second >= 365 * 24 * 3600) {      time[0] = parseInt(second / (365 * 24 * 3600));      second %= 365 * 24 * 3600;    }    if (second >= 24 * 3600) {      time[1] = parseInt(second / (24 * 3600));      second %= 24 * 3600;    }    if (second >= 3600) {      time[2] = nol(parseInt(second / 3600));      second %= 3600;    }    if (second >= 60) {      time[3] = nol(parseInt(second / 60));      second %= 60;    }    if (second > 0) {      time[4] = nol(second);    }    if ((Number(time[2])<22) && (Number(time[2])>7)){      currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-营业中-6adea8?style=social&logo=cakephp' title='距离百年老店也就差不到一百年~'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';    }    else{      currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';    }    document.getElementById("workboard").innerHTML = currentTimeHtml;  }, 1000);]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
