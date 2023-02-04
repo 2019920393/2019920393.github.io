@@ -4,6 +4,131 @@
   
     
     <entry>
+      <title>算法笔记</title>
+      <link href="/posts/bba1d2c5.html"/>
+      <url>/posts/bba1d2c5.html</url>
+      
+        <content type="html"><![CDATA[<p>sting 用printf输出     </p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">string str=<span class="string">&quot;hello&quot;</span>;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%s&quot;</span>,str.<span class="built_in">c_str</span>());    <span class="comment">// 调用c_str()函数</span></span><br><span class="line"> </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> algorithm </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统线程概念 多线程模型</title>
+      <link href="/posts/b525ef3.html"/>
+      <url>/posts/b525ef3.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="操作系统线程概念-多线程模型"><a href="#操作系统线程概念-多线程模型" class="headerlink" title="操作系统线程概念 多线程模型"></a>操作系统线程概念 多线程模型</h1><h2 id="什么是线程，为什么要引入线程？"><a href="#什么是线程，为什么要引入线程？" class="headerlink" title="什么是线程，为什么要引入线程？"></a>什么是线程，为什么要引入线程？</h2><p>传统的进程是程序执行流的最小单位。</p><p>引入线程后线程称为了程序执行流的最小单位</p><p><img src="/../static/OS/12.1.png" alt="12.1"></p><p><img src="/../static/OS/12.2.png" alt="12.2"></p><h2 id="引入线程机制后，有什么变化？"><a href="#引入线程机制后，有什么变化？" class="headerlink" title="引入线程机制后，有什么变化？"></a>引入线程机制后，有什么变化？</h2><p><img src="/../static/OS/12.3.png" alt="12.3"></p><h2 id="线程有哪些重要的属性？"><a href="#线程有哪些重要的属性？" class="headerlink" title="线程有哪些重要的属性？"></a>线程有哪些重要的属性？</h2><p><img src="/../static/OS/12.4.png" alt="12.4"></p><h2 id="线程的实现方式"><a href="#线程的实现方式" class="headerlink" title="线程的实现方式"></a>线程的实现方式</h2><p>​</p><h3 id="用户级线程"><a href="#用户级线程" class="headerlink" title="用户级线程"></a>用户级线程</h3><p><img src="/../static/OS/12.5.png" alt="12.5"></p><h3 id="内核级线程"><a href="#内核级线程" class="headerlink" title="内核级线程"></a>内核级线程</h3><p><img src="/../static/OS/12.6.png" alt="12.6"></p><p><img src="/../static/OS/12.7.png" alt="12.7"></p><h2 id="多线程模型"><a href="#多线程模型" class="headerlink" title="多线程模型"></a>多线程模型</h2><h3 id="多对一模型"><a href="#多对一模型" class="headerlink" title="多对一模型"></a>多对一模型</h3><p><img src="/../static/OS/12.8.png" alt="12.8"></p><h3 id="一对一模型"><a href="#一对一模型" class="headerlink" title="一对一模型"></a>一对一模型</h3><p><img src="/../static/OS/12.9.png" alt="12.9"></p><h3 id="多对多模型"><a href="#多对多模型" class="headerlink" title="多对多模型"></a>多对多模型</h3><p><img src="/../static/OS/12.10.png" alt="12.10"></p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><img src="/../static/OS/12.11.png" alt="12.11"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统进程的通信</title>
+      <link href="/posts/a92916fe.html"/>
+      <url>/posts/a92916fe.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="操作系统进程的通信"><a href="#操作系统进程的通信" class="headerlink" title="操作系统进程的通信"></a>操作系统进程的通信</h1><p>进程通信指进程之间的信息交换。</p><h2 id="共享存储"><a href="#共享存储" class="headerlink" title="共享存储"></a>共享存储</h2><p>分配一个共享空间，访问是互斥的（操作系统同步互斥工具实现的 如P,V操作）</p><h3 id="1，基于数据结构的共享"><a href="#1，基于数据结构的共享" class="headerlink" title="1，基于数据结构的共享"></a>1，基于数据结构的共享</h3><p>只能存放一个固定的数据结构。</p><p>共享速度慢限制多低级通信。</p><h3 id="2，基于存储区的共享"><a href="#2，基于存储区的共享" class="headerlink" title="2，基于存储区的共享"></a>2，基于存储区的共享</h3><p>速度快高级通信</p><h2 id="消息传递"><a href="#消息传递" class="headerlink" title="消息传递"></a>消息传递</h2><p>进程见的数据交换以格式化的信息为单位。进程通过操作系统提供的“发送消息&#x2F;接收消息”两个原语进行数据交换，</p><h3 id="1，直接通信"><a href="#1，直接通信" class="headerlink" title="1，直接通信"></a>1，直接通信</h3><p>消息直接被挂到消息缓冲队列中，</p><h3 id="2，间接通信"><a href="#2，间接通信" class="headerlink" title="2，间接通信"></a>2，间接通信</h3><p>消息要先发送到中间实体中</p><h2 id="管道通信"><a href="#管道通信" class="headerlink" title="管道通信"></a>管道通信</h2><p>管道是指用于连接读和写进程的一个共享文件，其实就是在内存中开辟一个固定大小的缓冲区。</p><p><img src="/../static/OS/11.1.png" alt="11.1"></p><p><img src="/../static/OS/11.2.png" alt="11.2"></p><p><img src="/../static/OS/11.4.png" alt="11.4"></p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><img src="/../static/OS/11.5.png" alt="11.5"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统进程的控制</title>
+      <link href="/posts/f71875f2.html"/>
+      <url>/posts/f71875f2.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="操作系统进程的控制"><a href="#操作系统进程的控制" class="headerlink" title="操作系统进程的控制"></a>操作系统进程的控制</h1><h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><h3 id="什么是进程控制："><a href="#什么是进程控制：" class="headerlink" title="什么是进程控制："></a>什么是进程控制：</h3><p>进程控制的主要功能是对系统中的所有进程实施有效的管理，它具有创建新进程，撤销已有进程，实现进程状态转换等功能。简单理解就是实现进程转换。</p><h3 id="如何实现进程控制"><a href="#如何实现进程控制" class="headerlink" title="如何实现进程控制"></a>如何实现进程控制</h3><p>用<strong>原语</strong>实现进程控制。特点是**执行期间不允许中断，只能一气呵成。 **原子操作</p><p>采用关中断，开中断实现。核心态下执行的特权指令。</p><p><img src="/../static/OS/10.1.png" alt="10.1"></p><p>进程控制相关的原语：</p><p><img src="/../static/OS/10.2.png" alt="10.2"></p><p><img src="/../static/OS/10.3.png" alt="10.3"></p><p><img src="/../static/OS/10.4.png" alt="10.4"></p><p><img src="/../static/OS/10.5.png" alt="10.5"></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p><img src="/../static/OS/10.6.png" alt="10.6"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统进程的状态与转换</title>
+      <link href="/posts/dc2ced6b.html"/>
+      <url>/posts/dc2ced6b.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="操作系统进程的状态与转换"><a href="#操作系统进程的状态与转换" class="headerlink" title="操作系统进程的状态与转换"></a>操作系统进程的状态与转换</h1><h2 id="状态："><a href="#状态：" class="headerlink" title="状态："></a>状态：</h2><p>三种基本状态：</p><p>运行态：占有cpu，并在cpu上运行</p><p>就绪态：已经具备运行条件，但由于没有空闲CPU，而暂时不能运行（进程已经拥有除了处理机以外的所有需要的资源，一旦获得处理机即可立即进入运行态）</p><p>阻塞态：因等待某一事件而暂时不能运行</p><p>另外两种状态：</p><p>创建态：进程正在被创建，操作系统为其分配资源初始化PCB</p><p>终止态：进程正在从系统中撤销，操作系统会回收进程拥有的资源，撤销PCB</p><h2 id="进程状态的转化"><a href="#进程状态的转化" class="headerlink" title="进程状态的转化"></a>进程状态的转化</h2><p><img src="/../static/OS/9.1.png" alt="9.1"></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p><img src="/../static/OS/9.2.png" alt="9.2"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>操作系统-操作系统进程的定义组成组织方式特征</title>
       <link href="/posts/a4db76fd.html"/>
       <url>/posts/a4db76fd.html</url>
@@ -108,7 +233,7 @@
       <link href="/posts/21da0718.html"/>
       <url>/posts/21da0718.html</url>
       
-        <content type="html"><![CDATA[<h1 id="计算机网络体系结构"><a href="#计算机网络体系结构" class="headerlink" title="计算机网络体系结构"></a>计算机网络体系结构</h1><h2 id="常见的计算机网络体系结构"><a href="#常见的计算机网络体系结构" class="headerlink" title="常见的计算机网络体系结构"></a>常见的计算机网络体系结构</h2><h3 id="OSI体系结构-法律上的标准-："><a href="#OSI体系结构-法律上的标准-：" class="headerlink" title="OSI体系结构(法律上的标准)："></a>OSI体系结构(法律上的标准)：</h3><p><img src="/../static/jw/16.png" alt="16"></p><h3 id="TCP-x2F-IP体系结构-事实上的国际标准-："><a href="#TCP-x2F-IP体系结构-事实上的国际标准-：" class="headerlink" title="TCP&#x2F;IP体系结构(事实上的国际标准)："></a>TCP&#x2F;IP体系结构(事实上的国际标准)：</h3><p><img src="/../static/jw/18.png" alt="18"></p><h3 id="原理体系结构："><a href="#原理体系结构：" class="headerlink" title="原理体系结构："></a>原理体系结构：</h3><p><img src="/../static/jw/19.png" alt="19"></p><h2 id="计算机网络体系结构分成的必要性"><a href="#计算机网络体系结构分成的必要性" class="headerlink" title="计算机网络体系结构分成的必要性"></a>计算机网络体系结构分成的必要性</h2><p>物理层：使用何种信号来传输比特的问题</p><p>数据链路层：解决在一个网络上传输的问题</p><p>网络层：解决在多个网络上的问题</p><p>运输层: 解决进程之间基于网络通信的问题</p><p>应用层：解决通过应用进程的交互来实现特定的网络应用的问题</p><h2 id="计算机网络体系结构分层思想举例"><a href="#计算机网络体系结构分层思想举例" class="headerlink" title="计算机网络体系结构分层思想举例"></a>计算机网络体系结构分层思想举例</h2><h2 id="计算机网络体系结构中的专用术语"><a href="#计算机网络体系结构中的专用术语" class="headerlink" title="计算机网络体系结构中的专用术语"></a>计算机网络体系结构中的专用术语</h2>]]></content>
+        <content type="html"><![CDATA[<h1 id="计算机网络体系结构"><a href="#计算机网络体系结构" class="headerlink" title="计算机网络体系结构"></a>计算机网络体系结构</h1><h2 id="常见的计算机网络体系结构"><a href="#常见的计算机网络体系结构" class="headerlink" title="常见的计算机网络体系结构"></a>常见的计算机网络体系结构</h2><h3 id="OSI体系结构-法律上的标准-："><a href="#OSI体系结构-法律上的标准-：" class="headerlink" title="OSI体系结构(法律上的标准)："></a>OSI体系结构(法律上的标准)：</h3><p><img src="/../static/jw/16.png" alt="16"></p><h3 id="TCP-x2F-IP体系结构-事实上的国际标准-："><a href="#TCP-x2F-IP体系结构-事实上的国际标准-：" class="headerlink" title="TCP&#x2F;IP体系结构(事实上的国际标准)："></a>TCP&#x2F;IP体系结构(事实上的国际标准)：</h3><p><img src="/../static/jw/18.png" alt="18"></p><h3 id="原理体系结构："><a href="#原理体系结构：" class="headerlink" title="原理体系结构："></a>原理体系结构：</h3><p><img src="/../static/jw/19.png" alt="19"></p><h2 id="计算机网络体系结构分成的必要性"><a href="#计算机网络体系结构分成的必要性" class="headerlink" title="计算机网络体系结构分成的必要性"></a>计算机网络体系结构分成的必要性</h2><p>物理层：使用何种信号来传输比特的问题</p><p>数据链路层：解决在一个网络上传输的问题</p><p>网络层：解决在多个网络上的问题</p><p>运输层: 解决进程之间基于网络通信的问题</p><p>表示层：解决进程之间进行会话的问题</p><p>表示层：解决双方交换信息的表示问题</p><p>应用层：解决通过应用进程的交互来实现特定的网络应用的问题</p><h2 id="计算机网络体系结构分层思想举例"><a href="#计算机网络体系结构分层思想举例" class="headerlink" title="计算机网络体系结构分层思想举例"></a>计算机网络体系结构分层思想举例</h2><p><a href="https://www.bilibili.com/video/BV1c4411d7jb?p=9&vd_source=c7973f7aaa9987eb9fcf41cb657ed598">https://www.bilibili.com/video/BV1c4411d7jb?p=9&amp;vd_source=c7973f7aaa9987eb9fcf41cb657ed598</a></p><h2 id="计算机网络体系结构中的专用术语"><a href="#计算机网络体系结构中的专用术语" class="headerlink" title="计算机网络体系结构中的专用术语"></a>计算机网络体系结构中的专用术语</h2><h2 id="实体"><a href="#实体" class="headerlink" title="实体"></a>实体</h2><p>任何可发送或接收信息的硬件或软件进程</p><h2 id="对等实体"><a href="#对等实体" class="headerlink" title="对等实体"></a>对等实体</h2><p>收发双方相同层次中的实体</p><h2 id="协议"><a href="#协议" class="headerlink" title="协议"></a>协议</h2><p>控制两个对等实体进行逻辑通信的规则的集合</p><p>协议的三个要素：语法，语义，同步</p><p>语法：定义交换信息的格式</p><p>语义：定义收发双方所要完成的操作</p><p>同步：定义收发双方的时序关系</p><h2 id="服务"><a href="#服务" class="headerlink" title="服务"></a>服务</h2><p>在协议的控制下，两个对等实体间的逻辑通信使得本层能够向上一层提供服务。</p><p>要实现本层协议，还需要使用下面一层所提供的服务；</p><p>协议是<strong>水平的</strong>，服务是<strong>垂直的</strong></p><p>实体是看得见相邻下层所提供的服务，但并不知道实现该服务的具体协议，下面的协议对上面的实体是<strong>透明</strong>的</p><h2 id="服务访问点"><a href="#服务访问点" class="headerlink" title="服务访问点"></a>服务访问点</h2><p><img src="/../static/jw/2.1.png" alt="2.1"></p><p><img src="/../static/jw/2.2.png" alt="2.2"></p><p><img src="/../static/jw/2.3.png" alt="2.3"></p>]]></content>
       
       
       <categories>
@@ -283,7 +408,7 @@
       <link href="/posts/ff6ea241.html"/>
       <url>/posts/ff6ea241.html</url>
       
-        <content type="html"><![CDATA[<h1 id="因特网的概述"><a href="#因特网的概述" class="headerlink" title="因特网的概述"></a>因特网的概述</h1><h2 id="1网络，互联网和因特网"><a href="#1网络，互联网和因特网" class="headerlink" title="1网络，互联网和因特网"></a>1网络，互联网和因特网</h2><ul><li>网络由若干个<strong>结点</strong>和连接这些结点的<strong>链路</strong>组成</li><li>多个网络还可以通过路由器互联起来，这样就构成了一个覆盖范围更大的网络，即互联网。因此，互联网是<strong>网络的网络</strong>。</li><li>因特网是世界上最大的互连网络。</li><li><img src="E:/blog/source/static/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E5%9B%A0%E7%89%B9%E7%BD%91%E7%9A%84%E6%A6%82%E8%BF%B01.png" alt="因特网的概述1"></li><li><img src="E:/blog/source/static/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E5%9B%A0%E7%89%B9%E7%BD%91%E7%9A%84%E6%A6%82%E8%BF%B02.png" alt="因特网的概述2"></li></ul><h2 id="2因特网发展的三个阶段"><a href="#2因特网发展的三个阶段" class="headerlink" title="2因特网发展的三个阶段"></a>2因特网发展的三个阶段</h2><p><img src="/../static/jw/3.png" alt="因特网的概述3"></p><p>因特网服务提供者(中国)：电信 联通 移动</p><h2 id="3因特网的标准化工作"><a href="#3因特网的标准化工作" class="headerlink" title="3因特网的标准化工作"></a>3因特网的标准化工作</h2><p><img src="/../static/jw/4.png" alt="4"></p><p>只有少部分RFC文档成为因特网标准。</p><h2 id="4因特网的组成"><a href="#4因特网的组成" class="headerlink" title="4因特网的组成"></a>4因特网的组成</h2><ul><li><p>边缘部分</p><p>由所有连接在因特网上的<strong>主机</strong>组成，这部分是<strong>用户直接使用</strong>的，用来进行<strong>通信</strong>和<strong>资源共享</strong></p></li><li><p>核心部分</p><p>由<strong>大量网络</strong>和连接这些网络的<strong>路由器</strong>组成。这部分是<strong>为边缘部分提供服务</strong>的(提供连通性和交换)</p></li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="因特网的概述"><a href="#因特网的概述" class="headerlink" title="因特网的概述"></a>因特网的概述</h1><h2 id="1网络，互联网和因特网"><a href="#1网络，互联网和因特网" class="headerlink" title="1网络，互联网和因特网"></a>1网络，互联网和因特网</h2><ul><li>网络由若干个<strong>结点</strong>和连接这些结点的<strong>链路</strong>组成</li><li>多个网络还可以通过路由器互联起来，这样就构成了一个覆盖范围更大的网络，即互联网。因此，互联网是<strong>网络的网络</strong>。</li><li>因特网是世界上最大的互连网络。</li><li><img src="/../static/jw/1.png" alt="因特网的概述1"></li><li><img src="/../static/jw/2.png" alt="因特网的概述2"></li></ul><h2 id="2因特网发展的三个阶段"><a href="#2因特网发展的三个阶段" class="headerlink" title="2因特网发展的三个阶段"></a>2因特网发展的三个阶段</h2><p><img src="/../static/jw/3.png" alt="因特网的概述3"></p><p>因特网服务提供者(中国)：电信 联通 移动</p><h2 id="3因特网的标准化工作"><a href="#3因特网的标准化工作" class="headerlink" title="3因特网的标准化工作"></a>3因特网的标准化工作</h2><p><img src="/../static/jw/4.png" alt="4"></p><p>只有少部分RFC文档成为因特网标准。</p><h2 id="4因特网的组成"><a href="#4因特网的组成" class="headerlink" title="4因特网的组成"></a>4因特网的组成</h2><ul><li><p>边缘部分</p><p>由所有连接在因特网上的<strong>主机</strong>组成，这部分是<strong>用户直接使用</strong>的，用来进行<strong>通信</strong>和<strong>资源共享</strong></p></li><li><p>核心部分</p><p>由<strong>大量网络</strong>和连接这些网络的<strong>路由器</strong>组成。这部分是<strong>为边缘部分提供服务</strong>的(提供连通性和交换)</p></li></ul>]]></content>
       
       
       <categories>
@@ -409,17 +534,6 @@
     
     <entry>
       <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
-      
-        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: transparent !important;  }  #page-header {    background: transparent !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }  /* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */@font-face {  font-family: "yyyy";  font-weight: 400;  src: url("/font/1.woff");  font-style: normal;  font-display: block;}/* 翻页按钮居中 */#pagination {  width: 100%;  margin: auto;}/* 导航栏魔改 *//* 夜间模式菜单栏发光字 */[data-theme="dark"] #nav .site-page,[data-theme="dark"] #nav .menus_items .menus_item .menus_item_child li a {  text-shadow: 0 0 2px var(rgb(127 255 212)) !important;}/* 手机端适配 */[data-theme="dark"] #sidebar #sidebar-menus .menus_items .site-page {  text-shadow: 0 0 2px var(rgb(127 255 212)) !important;}/* 闪烁变动颜色连续渐变 */#site-name,#site-title,#site-subtitle,#post-info,.author-info__name,.author-info__description {  transition: text-shadow 1s linear !important;}/* 导航栏魔改 *//* 一级菜单居中 */#nav .menus_items {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%) !important;}/* 子菜单横向展示 */#nav .menus_items .menus_item:hover .menus_item_child {  display: flex !important;}/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */.menus_items .menus_item:nth-child(5) .menus_item_child {  left: -50px;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/css/runtime.css"/>
       <url>/css/runtime.css</url>
       
@@ -431,21 +545,10 @@
     
     <entry>
       <title></title>
-      <link href="/movies/index..html"/>
-      <url>/movies/index..html</url>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
       
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/runtime.js"/>
-      <url>/js/runtime.js</url>
-      
-        <content type="html"><![CDATA[setInterval(() => {    let create_time = Math.round(new Date('2023-01-12 00:00:00').getTime() / 1000); //在此行修改建站时间    let timestamp = Math.round((new Date().getTime()) / 1000);    let second = timestamp - create_time;    let time = new Array(0, 0, 0, 0, 0);      var nol = function(h){      return h>9?h:'0'+h;    }    if (second >= 365 * 24 * 3600) {      time[0] = parseInt(second / (365 * 24 * 3600));      second %= 365 * 24 * 3600;    }    if (second >= 24 * 3600) {      time[1] = parseInt(second / (24 * 3600));      second %= 24 * 3600;    }    if (second >= 3600) {      time[2] = nol(parseInt(second / 3600));      second %= 3600;    }    if (second >= 60) {      time[3] = nol(parseInt(second / 60));      second %= 60;    }    if (second > 0) {      time[4] = nol(second);    }    if ((Number(time[2])<22) && (Number(time[2])>7)){      currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-营业中-6adea8?style=social&logo=cakephp' title='距离百年老店也就差不到一百年~'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';    }    else{      currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';    }    document.getElementById("workboard").innerHTML = currentTimeHtml;  }, 1000);]]></content>
+        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: transparent !important;  }  #page-header {    background: transparent !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }  /* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */@font-face {  font-family: "yyyy";  font-weight: 400;  src: url("/font/1.woff");  font-style: normal;  font-display: block;}/* 翻页按钮居中 */#pagination {  width: 100%;  margin: auto;}/* 导航栏魔改 *//* 夜间模式菜单栏发光字 */[data-theme="dark"] #nav .site-page,[data-theme="dark"] #nav .menus_items .menus_item .menus_item_child li a {  text-shadow: 0 0 2px var(rgb(127 255 212)) !important;}/* 手机端适配 */[data-theme="dark"] #sidebar #sidebar-menus .menus_items .site-page {  text-shadow: 0 0 2px var(rgb(127 255 212)) !important;}/* 闪烁变动颜色连续渐变 */#site-name,#site-title,#site-subtitle,#post-info,.author-info__name,.author-info__description {  transition: text-shadow 1s linear !important;}/* 导航栏魔改 *//* 一级菜单居中 */#nav .menus_items {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%) !important;}/* 子菜单横向展示 */#nav .menus_items .menus_item:hover .menus_item_child {  display: flex !important;}/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */.menus_items .menus_item:nth-child(5) .menus_item_child {  left: -50px;}]]></content>
       
     </entry>
     
@@ -463,9 +566,31 @@
     
     
     <entry>
+      <title></title>
+      <link href="/js/runtime.js"/>
+      <url>/js/runtime.js</url>
+      
+        <content type="html"><![CDATA[setInterval(() => {    let create_time = Math.round(new Date('2023-01-12 00:00:00').getTime() / 1000); //在此行修改建站时间    let timestamp = Math.round((new Date().getTime()) / 1000);    let second = timestamp - create_time;    let time = new Array(0, 0, 0, 0, 0);      var nol = function(h){      return h>9?h:'0'+h;    }    if (second >= 365 * 24 * 3600) {      time[0] = parseInt(second / (365 * 24 * 3600));      second %= 365 * 24 * 3600;    }    if (second >= 24 * 3600) {      time[1] = parseInt(second / (24 * 3600));      second %= 24 * 3600;    }    if (second >= 3600) {      time[2] = nol(parseInt(second / 3600));      second %= 3600;    }    if (second >= 60) {      time[3] = nol(parseInt(second / 60));      second %= 60;    }    if (second > 0) {      time[4] = nol(second);    }    if ((Number(time[2])<22) && (Number(time[2])>7)){      currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-营业中-6adea8?style=social&logo=cakephp' title='距离百年老店也就差不到一百年~'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';    }    else{      currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';    }    document.getElementById("workboard").innerHTML = currentTimeHtml;  }, 1000);]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>link</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/movies/index..html"/>
+      <url>/movies/index..html</url>
       
         <content type="html"><![CDATA[]]></content>
       
