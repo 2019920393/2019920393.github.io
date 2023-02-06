@@ -4,6 +4,131 @@
   
     
     <entry>
+      <title>计算机网络-计算机网-信道的极限容量</title>
+      <link href="/posts/183234e3.html"/>
+      <url>/posts/183234e3.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="信道的极限容量"><a href="#信道的极限容量" class="headerlink" title="信道的极限容量"></a>信道的极限容量</h1><p>码间串扰：信号波形失去了码元之间清晰的界线。</p><p><img src="/../static/jw/18.1.png" alt="18.1"></p><p><img src="/../static/jw/18.2.png" alt="18.2"></p><p><img src="/../static/jw/18.3.png" alt="18.3"></p><p><img src="/../static/jw/18.4.png" alt="18.4"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> jw </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机网络 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计算机网络-计算机网-编码与调制</title>
+      <link href="/posts/70e0cfaa.html"/>
+      <url>/posts/70e0cfaa.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="编码与调制"><a href="#编码与调制" class="headerlink" title="编码与调制"></a>编码与调制</h1><h2 id="编码"><a href="#编码" class="headerlink" title="编码"></a>编码</h2><p><img src="/../static/jw/17.1.png" alt="17.1"></p><p><img src="/../static/jw/17.2.png" alt="17.2"></p><p><img src="/../static/jw/17.3.png" alt="17.3"></p><h2 id="基本的调制方法"><a href="#基本的调制方法" class="headerlink" title="基本的调制方法"></a>基本的调制方法</h2><p><img src="/../static/jw/17.4.png" alt="17.4"></p><p><img src="/../static/jw/17.5.png" alt="17.5"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> jw </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机网络 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计算机网络-计算机网-传输方式</title>
+      <link href="/posts/c9d36541.html"/>
+      <url>/posts/c9d36541.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="传输方式"><a href="#传输方式" class="headerlink" title="传输方式"></a>传输方式</h1><h2 id="串行传输"><a href="#串行传输" class="headerlink" title="串行传输"></a>串行传输</h2><p>一条线路  计算机网络中使用串行传输</p><h2 id="并行传输"><a href="#并行传输" class="headerlink" title="并行传输"></a>并行传输</h2><p>多条线路   速度是串行传输的N倍 ，成本高   电脑内部使用并行传输  </p><h2 id="同步传输"><a href="#同步传输" class="headerlink" title="同步传输"></a>同步传输</h2><p><img src="/../static/jw/16.1.png" alt="16.1"></p><h2 id="异步传输"><a href="#异步传输" class="headerlink" title="异步传输"></a>异步传输</h2><p><img src="/../static/jw/16.2.png" alt="16.2"></p><h3 id="单向通信-单工"><a href="#单向通信-单工" class="headerlink" title="单向通信(单工)"></a>单向通信(单工)</h3><p>单向 一条信道</p><p>如：无线电广播 </p><h3 id="双向交替通信-半双工"><a href="#双向交替通信-半双工" class="headerlink" title="双向交替通信(半双工)"></a>双向交替通信(半双工)</h3><p>可以双向进行，但是不能同时进行 两条信道</p><p>如：对讲机</p><h3 id="双向同时通信-全双工"><a href="#双向同时通信-全双工" class="headerlink" title="双向同时通信(全双工)"></a>双向同时通信(全双工)</h3><p>可以同时发送和接受  两条信道</p><p>如：电话</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> jw </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机网络 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计算机网络-计算机网-络物理层的基本概念</title>
+      <link href="/posts/a8b4fca.html"/>
+      <url>/posts/a8b4fca.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="计算机网-络物理层的基本概念"><a href="#计算机网-络物理层的基本概念" class="headerlink" title="计算机网-络物理层的基本概念"></a>计算机网-络物理层的基本概念</h1><p><img src="/../static/jw/14.1.png" alt="14.1"></p><p>传输媒体不属于计算机网络体系的任何一层。</p><h1 id="物理层下面的传输媒体"><a href="#物理层下面的传输媒体" class="headerlink" title="物理层下面的传输媒体"></a>物理层下面的传输媒体</h1><h2 id="导引型传输媒体"><a href="#导引型传输媒体" class="headerlink" title="导引型传输媒体"></a>导引型传输媒体</h2><h3 id="同轴电缆"><a href="#同轴电缆" class="headerlink" title="同轴电缆"></a>同轴电缆</h3><p><img src="/../static/jw/15.1.png" alt="15.1"></p><h3 id="双绞线"><a href="#双绞线" class="headerlink" title="双绞线"></a>双绞线</h3><p><img src="/../static/jw/15.2.png" alt="15.2"></p><h3 id="光纤"><a href="#光纤" class="headerlink" title="光纤"></a>光纤</h3><p><img src="/../static/jw/15.3.png" alt="15.3"></p><p><img src="/../static/jw/15.4.png" alt="15.4"></p><h3 id="电力线"><a href="#电力线" class="headerlink" title="电力线"></a>电力线</h3><p><img src="/../static/jw/15.5.png" alt="15.5"></p><h2 id="非导引型传输媒体"><a href="#非导引型传输媒体" class="headerlink" title="非导引型传输媒体"></a>非导引型传输媒体</h2><h3 id="无线电波"><a href="#无线电波" class="headerlink" title="无线电波"></a>无线电波</h3><p><img src="/../static/jw/15.6.png" alt="15.6"></p><h3 id="微波"><a href="#微波" class="headerlink" title="微波"></a>微波</h3><p>频率范围：300MHz-300GHz(波长1m-1mm) 主要使用2-40GHz范围</p><p>微波会穿过电离层</p><p><img src="/../static/jw/15.7.png" alt="15.7"></p><h3 id="红外线"><a href="#红外线" class="headerlink" title="红外线"></a>红外线</h3><p>点对点无线传输</p><p>直线传输，中间不能有障碍物，传输距离短</p><p>传输速率低（4Mb&#x2F;s~16Mb&#x2F;s）</p><h3 id="可见光"><a href="#可见光" class="headerlink" title="可见光"></a>可见光</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> jw </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机网络 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>算法-二分</title>
+      <link href="/posts/17ef395a.html"/>
+      <url>/posts/17ef395a.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="二分"><a href="#二分" class="headerlink" title="二分"></a>二分</h1><p>二分的使用条件</p><p><strong>这题目为LeetCode中704二分查找    前提是数组为有序数组</strong>，同时题目还强调<strong>数组中无重复元素</strong>，因为一旦有重复元素，使用二分查找法返回的元素下标可能不是唯一的，这些都是使用二分法的前提条件，当大家看到题目描述满足如上条件的时候，可要想一想是不是可以用二分法了。</p><p><img src="/../static/Algorithm/%E7%AE%97%E6%B3%95%E8%A1%A8%E7%A4%BA%E7%89%B9%E7%82%B9/%E4%BA%8C%E5%88%86.png" alt="二分"></p><p>关于二分的一些边界问题。</p><p>1，首先确定我们使用的区间是哪种类型</p><p>2，根据类型写判断条件</p><p>以左闭右闭为例。[1,1]这种区间是合法区间 ，代码（题目为LeetCode中704二分查找）</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">search</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; nums, <span class="type">int</span> target)</span> </span>&#123;</span><br><span class="line">        <span class="type">int</span> l=<span class="number">0</span>,r=nums.<span class="built_in">size</span>()<span class="number">-1</span>;</span><br><span class="line">        <span class="keyword">while</span>(l&lt;=r)&#123;   <span class="comment">//可以加上等于号，因为区间合法</span></span><br><span class="line">            <span class="type">int</span> middle=(l+r)/<span class="number">2</span>;</span><br><span class="line">            <span class="keyword">if</span>(nums[middle]&gt;target)&#123;  <span class="comment">//判断条件中已经排除middle的值，所以更新区间是不包括。</span></span><br><span class="line">                r=middle<span class="number">-1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span>(nums[middle]&lt;target)&#123;</span><br><span class="line">                l=middle+<span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">return</span> middle;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><p>以左闭右开为例。[1,1)这种区间是非法法区间 ，代码（题目为LeetCode中704二分查找）</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">search</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; nums, <span class="type">int</span> target)</span> </span>&#123;</span><br><span class="line">        <span class="type">int</span> l=<span class="number">0</span>,r=nums.<span class="built_in">size</span>(); <span class="comment">//因为右边为开区间，所以r=nums.size();</span></span><br><span class="line">        <span class="keyword">while</span>(l&lt;r)&#123;  <span class="comment">// [1,1)这种区间是非法法区间，不加等于号</span></span><br><span class="line">            <span class="type">int</span> middle=(l+r)/<span class="number">2</span>;</span><br><span class="line">            <span class="keyword">if</span>(nums[middle]&gt;target)&#123;<span class="comment">//有边界开区间 r=middle</span></span><br><span class="line">                r=middle;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span>(nums[middle]&lt;target)&#123;<span class="comment">//左边闭区间 判断条件中已经排除middle的值，所以更新区间是不包括。</span></span><br><span class="line">                l=middle+<span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">return</span> middle;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><p>同理其他区间也用类似分析方法。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> algorithm </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>操作系统-操作系统的调度算法</title>
       <link href="/posts/e5d16f48.html"/>
       <url>/posts/e5d16f48.html</url>
@@ -612,9 +737,9 @@
     
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title></title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -623,9 +748,9 @@
     
     
     <entry>
-      <title></title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -646,32 +771,10 @@
     
     <entry>
       <title></title>
-      <link href="/movies/index..html"/>
-      <url>/movies/index..html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/css/runtime.css"/>
       <url>/css/runtime.css</url>
       
         <content type="html"><![CDATA[/*电子钟字体*/@font-face {    font-family: 'UnidreamLED';    src: url("https://cdn.jsdelivr.net/npm/akilar-candyassets/fonts/UnidreamLED.ttf");    font-display: swap;  }  div#runtime {    width: 180px;    margin: auto;    color: #fff;    padding-inline: 5px;    border-radius: 10px;    background-color: rgba(0,0,0,0.7);    font-family: 'UnidreamLED';  }  [data-theme="dark"] div#runtime {    color: #28b4c8;    box-shadow: 0 0 5px rgba(28,69,218,0.71);    animation: flashlight 1s linear infinite alternate;  }  /*悬停显示徽标提示语*/  a.github-badge:hover:before {    position: fixed;    width: fit-content;    margin: auto;    left: 0;    right: 0;    top: 10%;    border-radius: 10px;    text-align: center;    z-index: 100;    content: attr(data-title);    font-size: 20px;    color: #fff;    padding: 10px;    background-color: var(--text-bg-hover);  }  [data-theme=dark] a.github-badge:hover:before {    background-color: rgba(18,18,18,0.8);  }  @-moz-keyframes flashlight {    from {      box-shadow: 0 0 5px #1478d2;    }    to {      box-shadow: 0 0 2px #1478d2;    }  }  @-webkit-keyframes flashlight {    from {      box-shadow: 0 0 5px #1478d2;    }    to {      box-shadow: 0 0 2px #1478d2;    }  }  @-o-keyframes flashlight {    from {      box-shadow: 0 0 5px #1478d2;    }    to {      box-shadow: 0 0 2px #1478d2;    }  }  @keyframes flashlight {    from {      box-shadow: 0 0 5px #1478d2;    }    to {      box-shadow: 0 0 2px #1478d2;    }  }]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -700,6 +803,28 @@
     
     
     <entry>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/movies/index..html"/>
+      <url>/movies/index..html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>歌单</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
@@ -711,9 +836,9 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>picture</title>
+      <link href="/picture/index.html"/>
+      <url>/picture/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -722,9 +847,9 @@
     
     
     <entry>
-      <title>picture</title>
-      <link href="/picture/index.html"/>
-      <url>/picture/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
