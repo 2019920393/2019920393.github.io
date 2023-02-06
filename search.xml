@@ -4,6 +4,69 @@
   
     
     <entry>
+      <title>操作系统-操作系统调度算法的评价指标</title>
+      <link href="/posts/439b1f28.html"/>
+      <url>/posts/439b1f28.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="操作系统调度算法的评价指标"><a href="#操作系统调度算法的评价指标" class="headerlink" title="操作系统调度算法的评价指标"></a>操作系统调度算法的评价指标</h1><h2 id="CPU利用率"><a href="#CPU利用率" class="headerlink" title="CPU利用率"></a>CPU利用率</h2><p><img src="/../static/OS/15.1.png" alt="15.1"></p><h2 id="系统吞吐量"><a href="#系统吞吐量" class="headerlink" title="系统吞吐量"></a>系统吞吐量</h2><p><img src="/../static/OS/15.2.png" alt="15.2"></p><h2 id="周转时间"><a href="#周转时间" class="headerlink" title="周转时间"></a>周转时间</h2><h3 id="周转时间，平均周转时间"><a href="#周转时间，平均周转时间" class="headerlink" title="周转时间，平均周转时间"></a>周转时间，平均周转时间</h3><p><img src="/../static/OS/15.3.png" alt="15.3"></p><h3 id="带权周转时间，平均带权周转时间"><a href="#带权周转时间，平均带权周转时间" class="headerlink" title="带权周转时间，平均带权周转时间"></a>带权周转时间，平均带权周转时间</h3><p><img src="/../static/OS/15.5.png" alt="15.4"></p><h2 id="等待时间"><a href="#等待时间" class="headerlink" title="等待时间"></a>等待时间</h2><p><img src="/../static/OS/15.6.png" alt="15.6"></p><h2 id="响应时间"><a href="#响应时间" class="headerlink" title="响应时间"></a>响应时间</h2><p>用户提交到首次产生响应所用的时间</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><img src="/../static/OS/15.7.png" alt="15.7"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统进程调度的时机,切换与过程，方式</title>
+      <link href="/posts/10120f25.html"/>
+      <url>/posts/10120f25.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="操作系统进程调度的时机-切换与过程，方式"><a href="#操作系统进程调度的时机-切换与过程，方式" class="headerlink" title="操作系统进程调度的时机,切换与过程，方式"></a>操作系统进程调度的时机,切换与过程，方式</h1><h2 id="时机"><a href="#时机" class="headerlink" title="时机"></a>时机</h2><p><img src="/../static/OS/14.3.png" alt="14.3"></p><h3 id="什么时候需要进程调度？"><a href="#什么时候需要进程调度？" class="headerlink" title="什么时候需要进程调度？"></a>什么时候需要进程调度？</h3><p><img src="/../static/OS/14.1.png" alt="14.1"></p><h3 id="什么时候不能进行进程调度？"><a href="#什么时候不能进行进程调度？" class="headerlink" title="什么时候不能进行进程调度？"></a>什么时候不能进行进程调度？</h3><p><img src="/../static/OS/14.2.png" alt="14.2"></p><h2 id="切换与过程"><a href="#切换与过程" class="headerlink" title="切换与过程"></a>切换与过程</h2><h3 id="狭义的调度与切换的区别"><a href="#狭义的调度与切换的区别" class="headerlink" title="狭义的调度与切换的区别"></a>狭义的调度与切换的区别</h3><p><img src="/../static/OS/14.6.png" alt="14.6"></p><h3 id="进程切换的过程需要做什么？"><a href="#进程切换的过程需要做什么？" class="headerlink" title="进程切换的过程需要做什么？"></a>进程切换的过程需要做什么？</h3><p><img src="/../static/OS/14.7.png" alt="14.7"></p><h2 id="方式"><a href="#方式" class="headerlink" title="方式"></a>方式</h2><h3 id="非剥夺调度方式（非抢占式）"><a href="#非剥夺调度方式（非抢占式）" class="headerlink" title="非剥夺调度方式（非抢占式）"></a>非剥夺调度方式（非抢占式）</h3><p><img src="/../static/OS/14.4.png" alt="14.4"></p><h3 id="剥夺调度方式（抢占式）"><a href="#剥夺调度方式（抢占式）" class="headerlink" title="剥夺调度方式（抢占式）"></a>剥夺调度方式（抢占式）</h3><p><img src="/../static/OS/14.5.png" alt="14.5"></p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><img src="/../static/OS/14.8.png" alt="14.8"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统处理机调度的概念、层次</title>
+      <link href="/posts/6a85fdf2.html"/>
+      <url>/posts/6a85fdf2.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="操作系统处理机调度的概念、层次"><a href="#操作系统处理机调度的概念、层次" class="headerlink" title="操作系统处理机调度的概念、层次"></a>操作系统处理机调度的概念、层次</h1><h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p>当有一堆任务要处理是，但是由于资源有限，这些事情没法同时处理，这就需要确定<strong>某种规则</strong>来<strong>决定</strong>处理这些任务的<strong>顺序</strong>，这就是调度研究的问题。</p><p>在多道程序系统中，进程的数量往往是多于处理机的个数，这样不可能同时并行的处理各个进程。<strong>处理机调度</strong>就是从就绪队列中按照一定算法选择一个进程并将处理机分配给其运行，以实现进程的并发执行。</p><h2 id="三个层次"><a href="#三个层次" class="headerlink" title="三个层次"></a>三个层次</h2><h3 id="高级调度（作业调度）"><a href="#高级调度（作业调度）" class="headerlink" title="高级调度（作业调度）"></a>高级调度（作业调度）</h3><p>按照一定的原则从外存上处于后备队列的作业挑选一个或多个作业，给她们分配内存等资源，并建立相应的进程(建立PCB)，以使它们获得竞争处理机的权利。</p><p><img src="/../static/OS/13.2.png" alt="13.2"></p><h3 id="中级调度（内存调度）"><a href="#中级调度（内存调度）" class="headerlink" title="中级调度（内存调度）"></a>中级调度（内存调度）</h3><p><img src="/../static/OS/13.3.png" alt="13.3"></p><h3 id="低级调度（进程调度）"><a href="#低级调度（进程调度）" class="headerlink" title="低级调度（进程调度）"></a>低级调度（进程调度）</h3><p> 低级调度，其主要任务是按照某种方法和策略从就绪队列中选取一个进程，将处理机分配给他。</p><p>进程调度是操作系统中<strong>最基本的一种调度</strong>，在一般的操作系统中都必须配置进程调度，进程调度的<strong>频率很高</strong>，一般几十毫秒一次。</p><h2 id="三层调度的联系与对比"><a href="#三层调度的联系与对比" class="headerlink" title="三层调度的联系与对比"></a>三层调度的联系与对比</h2><p><img src="/../static/OS/13.5.png" alt="13.5"></p><h2 id="补充知识"><a href="#补充知识" class="headerlink" title="补充知识"></a>补充知识</h2><h3 id="进程的“-挂起态”七状态模型"><a href="#进程的“-挂起态”七状态模型" class="headerlink" title="进程的“ 挂起态”七状态模型"></a>进程的“ 挂起态”七状态模型</h3><p><img src="/../static/OS/13.4.png" alt="13.4"></p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><img src="/../static/OS/13.6.png" alt="13.6"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>算法笔记</title>
       <link href="/posts/bba1d2c5.html"/>
       <url>/posts/bba1d2c5.html</url>
@@ -555,28 +618,6 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/light.js"/>
-      <url>/js/light.js</url>
-      
-        <content type="html"><![CDATA[// 霓虹灯效果// 颜色数组var arr = ["#39c5bb", "#f14747", "#f1a247", "#f1ee47", "#b347f1", "#1edbff", "#ed709b", "#5636ed"];// 颜色索引var idx = 0;// 切换颜色function changeColor() {    // 仅夜间模式才启用    if (document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark') {        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = arr[idx] + " 0 0 10px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = arr[idx] + " 0 0 5px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = arr[idx] + " 0 0 12px";            document.getElementsByClassName("author-info__description")[0].style.textShadow = arr[idx] + " 0 0 12px";        } catch {                    }        idx++;        if (idx == 8) {            idx = 0;        }    } else {        // 白天模式恢复默认        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = "#1e1e1ee0 1px 1px 1px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = "";            document.getElementsByClassName("author-info__description")[0].style.textShadow = "";        } catch {                    }    }}// 开启计时器window.onload = setInterval(changeColor, 1200);]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/runtime.js"/>
-      <url>/js/runtime.js</url>
-      
-        <content type="html"><![CDATA[setInterval(() => {    let create_time = Math.round(new Date('2023-01-12 00:00:00').getTime() / 1000); //在此行修改建站时间    let timestamp = Math.round((new Date().getTime()) / 1000);    let second = timestamp - create_time;    let time = new Array(0, 0, 0, 0, 0);      var nol = function(h){      return h>9?h:'0'+h;    }    if (second >= 365 * 24 * 3600) {      time[0] = parseInt(second / (365 * 24 * 3600));      second %= 365 * 24 * 3600;    }    if (second >= 24 * 3600) {      time[1] = parseInt(second / (24 * 3600));      second %= 24 * 3600;    }    if (second >= 3600) {      time[2] = nol(parseInt(second / 3600));      second %= 3600;    }    if (second >= 60) {      time[3] = nol(parseInt(second / 60));      second %= 60;    }    if (second > 0) {      time[4] = nol(second);    }    if ((Number(time[2])<22) && (Number(time[2])>7)){      currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-营业中-6adea8?style=social&logo=cakephp' title='距离百年老店也就差不到一百年~'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';    }    else{      currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';    }    document.getElementById("workboard").innerHTML = currentTimeHtml;  }, 1000);]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>link</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
@@ -599,22 +640,44 @@
     
     
     <entry>
-      <title>picture</title>
-      <link href="/picture/index.html"/>
-      <url>/picture/index.html</url>
+      <title>歌单</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>#歌单</p><div class="aplayer" data-id="1294951288" data-server="netease" data-type="song" data-mutex="true" data-preload="auto" data-theme="#3F51B5"></div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>歌单</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title></title>
+      <link href="/js/light.js"/>
+      <url>/js/light.js</url>
       
-        <content type="html"><![CDATA[<p>#歌单</p><div class="aplayer" data-id="1294951288" data-server="netease" data-type="song" data-mutex="true" data-preload="auto" data-theme="#3F51B5"></div>]]></content>
+        <content type="html"><![CDATA[// 霓虹灯效果// 颜色数组var arr = ["#39c5bb", "#f14747", "#f1a247", "#f1ee47", "#b347f1", "#1edbff", "#ed709b", "#5636ed"];// 颜色索引var idx = 0;// 切换颜色function changeColor() {    // 仅夜间模式才启用    if (document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark') {        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = arr[idx] + " 0 0 10px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = arr[idx] + " 0 0 5px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = arr[idx] + " 0 0 12px";            document.getElementsByClassName("author-info__description")[0].style.textShadow = arr[idx] + " 0 0 12px";        } catch {                    }        idx++;        if (idx == 8) {            idx = 0;        }    } else {        // 白天模式恢复默认        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = "#1e1e1ee0 1px 1px 1px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = "";            document.getElementsByClassName("author-info__description")[0].style.textShadow = "";        } catch {                    }    }}// 开启计时器window.onload = setInterval(changeColor, 1200);]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/runtime.js"/>
+      <url>/js/runtime.js</url>
+      
+        <content type="html"><![CDATA[setInterval(() => {    let create_time = Math.round(new Date('2023-01-12 00:00:00').getTime() / 1000); //在此行修改建站时间    let timestamp = Math.round((new Date().getTime()) / 1000);    let second = timestamp - create_time;    let time = new Array(0, 0, 0, 0, 0);      var nol = function(h){      return h>9?h:'0'+h;    }    if (second >= 365 * 24 * 3600) {      time[0] = parseInt(second / (365 * 24 * 3600));      second %= 365 * 24 * 3600;    }    if (second >= 24 * 3600) {      time[1] = parseInt(second / (24 * 3600));      second %= 24 * 3600;    }    if (second >= 3600) {      time[2] = nol(parseInt(second / 3600));      second %= 3600;    }    if (second >= 60) {      time[3] = nol(parseInt(second / 60));      second %= 60;    }    if (second > 0) {      time[4] = nol(second);    }    if ((Number(time[2])<22) && (Number(time[2])>7)){      currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-营业中-6adea8?style=social&logo=cakephp' title='距离百年老店也就差不到一百年~'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';    }    else{      currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';    }    document.getElementById("workboard").innerHTML = currentTimeHtml;  }, 1000);]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>picture</title>
+      <link href="/picture/index.html"/>
+      <url>/picture/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
