@@ -4,6 +4,101 @@
   
     
     <entry>
+      <title>操作系统-操作系统-用信号量机制实现进程互斥，同步，前驱关系。</title>
+      <link href="/posts/4c58f37f.html"/>
+      <url>/posts/4c58f37f.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="用信号量机制实现进程互斥，同步，前驱关系。"><a href="#用信号量机制实现进程互斥，同步，前驱关系。" class="headerlink" title="用信号量机制实现进程互斥，同步，前驱关系。"></a>用信号量机制实现进程互斥，同步，前驱关系。</h1><h2 id="实现进程互斥"><a href="#实现进程互斥" class="headerlink" title="实现进程互斥"></a>实现进程互斥</h2><p><img src="/../static/OS/22.1.png" alt="22.1"></p><h2 id="实现进程同步"><a href="#实现进程同步" class="headerlink" title="实现进程同步"></a>实现进程同步</h2><p><img src="/../static/OS/22.2.png" alt="22.2"></p><p><img src="/../static/OS/22.3.png" alt="22.3"></p><h2 id="实现进程前驱关系"><a href="#实现进程前驱关系" class="headerlink" title="实现进程前驱关系"></a>实现进程前驱关系</h2><p><img src="/../static/OS/22.4.png" alt="22.4"></p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><img src="/../static/OS/22.5.png" alt="22.5"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统的信号量机制</title>
+      <link href="/posts/7c101fcb.html"/>
+      <url>/posts/7c101fcb.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="操作系统的信号量机制"><a href="#操作系统的信号量机制" class="headerlink" title="操作系统的信号量机制"></a>操作系统的信号量机制</h1><p><img src="/../static/OS/21.1.png" alt="21.1"></p><h2 id="整型信号量"><a href="#整型信号量" class="headerlink" title="整型信号量"></a>整型信号量</h2><p><img src="/../static/OS/21.2.png" alt="21.2"></p><h2 id="记录型信号量"><a href="#记录型信号量" class="headerlink" title="记录型信号量"></a>记录型信号量</h2><p><img src="/../static/OS/21.3.png" alt="21.3"></p><p><img src="/../static/OS/21.4.png" alt="21.4"></p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><img src="/../static/OS/21.5.png" alt="21.5"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统的进程互斥的硬件实现方法</title>
+      <link href="/posts/c07daf48.html"/>
+      <url>/posts/c07daf48.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="进程互斥的硬件实现方法"><a href="#进程互斥的硬件实现方法" class="headerlink" title="进程互斥的硬件实现方法"></a>进程互斥的硬件实现方法</h1><h2 id="中断屏蔽方法"><a href="#中断屏蔽方法" class="headerlink" title="中断屏蔽方法"></a>中断屏蔽方法</h2><p><img src="/../static/OS/20.1.png" alt="20.1"></p><h2 id="TestAndSet-TS指令-x2F-TSL指令"><a href="#TestAndSet-TS指令-x2F-TSL指令" class="headerlink" title="TestAndSet(TS指令&#x2F;TSL指令)"></a>TestAndSet(TS指令&#x2F;TSL指令)</h2><p><img src="/../static/OS/20.2.png" alt="20.2"></p><h2 id="Swap指令-XCHG指令"><a href="#Swap指令-XCHG指令" class="headerlink" title="Swap指令(XCHG指令)"></a>Swap指令(XCHG指令)</h2><p><img src="/../static/OS/20.3.png" alt="20.3"></p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><img src="/../static/OS/20.4.png" alt="20.4"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统的进程互斥的软件实现方法</title>
+      <link href="/posts/9d834efe.html"/>
+      <url>/posts/9d834efe.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="进程互斥的软件实现方法"><a href="#进程互斥的软件实现方法" class="headerlink" title="进程互斥的软件实现方法"></a>进程互斥的软件实现方法</h1><h2 id="单标志法"><a href="#单标志法" class="headerlink" title="单标志法"></a>单标志法</h2><p>两个进程在访问完临界区后会吧使用临界区的权限交给另一个进程。也就是说进入临界区的权限只能被另一个进程赋予。</p><p>违背空闲让进的原则。</p><h2 id="双标志先检查"><a href="#双标志先检查" class="headerlink" title="双标志先检查"></a>双标志先检查</h2><p>设置一个布尔类型的数组，来标记各个进程想进入临界区的意愿。</p><p>违背了忙则等待的原则。</p><p>原因：进入区检查和上锁不是原子操作，会发生进程切换，导致违背忙则等待原则。</p><h2 id="双标志后检查"><a href="#双标志后检查" class="headerlink" title="双标志后检查"></a>双标志后检查</h2><p>虽然解决了忙则等待，但是违背了空闲让进和有限等待的原则，产生饥饿现象。</p><h2 id="Peterson算法"><a href="#Peterson算法" class="headerlink" title="Peterson算法"></a>Peterson算法</h2><p><img src="/../static/OS/19.1.png" alt="19.1"></p><p><img src="/../static/OS/19.2.png" alt="19.2"></p><p><img src="/../static/OS/19.3.png" alt="19.3"></p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><img src="/../static/OS/19.4.png" alt="19.4"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统的进程同步与进程互斥</title>
+      <link href="/posts/e5d16f48.html"/>
+      <url>/posts/e5d16f48.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="进程同步与进程互斥"><a href="#进程同步与进程互斥" class="headerlink" title="进程同步与进程互斥"></a>进程同步与进程互斥</h1><p><img src="/../static/OS/18.1.png" alt="18.1"></p><p><img src="/../static/OS/18.2.png" alt="18.2"></p><p><img src="/../static/OS/18.3.png" alt="18.3"></p><p><img src="/../static/OS/18.4.png" alt="18.4"></p><p><img src="/../static/OS/18.5.png" alt="18.5"></p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><img src="/../static/OS/18.6.png" alt="18.6"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>计算机网络-计算机网-信道的极限容量</title>
       <link href="/posts/183234e3.html"/>
       <url>/posts/183234e3.html</url>
@@ -748,22 +843,22 @@
     
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: transparent !important;  }  #page-header {    background: transparent !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }  /* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */@font-face {  font-family: "yyyy";  font-weight: 400;  src: url("/font/1.woff");  font-style: normal;  font-display: block;}/* 翻页按钮居中 */#pagination {  width: 100%;  margin: auto;}/* 导航栏魔改 *//* 夜间模式菜单栏发光字 */[data-theme="dark"] #nav .site-page,[data-theme="dark"] #nav .menus_items .menus_item .menus_item_child li a {  text-shadow: 0 0 2px var(rgb(127 255 212)) !important;}/* 手机端适配 */[data-theme="dark"] #sidebar #sidebar-menus .menus_items .site-page {  text-shadow: 0 0 2px var(rgb(127 255 212)) !important;}/* 闪烁变动颜色连续渐变 */#site-name,#site-title,#site-subtitle,#post-info,.author-info__name,.author-info__description {  transition: text-shadow 1s linear !important;}/* 导航栏魔改 *//* 一级菜单居中 */#nav .menus_items {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%) !important;}/* 子菜单横向展示 */#nav .menus_items .menus_item:hover .menus_item_child {  display: flex !important;}/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */.menus_items .menus_item:nth-child(5) .menus_item_child {  left: -50px;}]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: transparent !important;  }  #page-header {    background: transparent !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }  /* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */@font-face {  font-family: "yyyy";  font-weight: 400;  src: url("/font/1.woff");  font-style: normal;  font-display: block;}/* 翻页按钮居中 */#pagination {  width: 100%;  margin: auto;}/* 导航栏魔改 *//* 夜间模式菜单栏发光字 */[data-theme="dark"] #nav .site-page,[data-theme="dark"] #nav .menus_items .menus_item .menus_item_child li a {  text-shadow: 0 0 2px var(rgb(127 255 212)) !important;}/* 手机端适配 */[data-theme="dark"] #sidebar #sidebar-menus .menus_items .site-page {  text-shadow: 0 0 2px var(rgb(127 255 212)) !important;}/* 闪烁变动颜色连续渐变 */#site-name,#site-title,#site-subtitle,#post-info,.author-info__name,.author-info__description {  transition: text-shadow 1s linear !important;}/* 导航栏魔改 *//* 一级菜单居中 */#nav .menus_items {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%) !important;}/* 子菜单横向展示 */#nav .menus_items .menus_item:hover .menus_item_child {  display: flex !important;}/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */.menus_items .menus_item:nth-child(5) .menus_item_child {  left: -50px;}]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -792,11 +887,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/runtime.js"/>
-      <url>/js/runtime.js</url>
+      <title>picture</title>
+      <link href="/picture/index.html"/>
+      <url>/picture/index.html</url>
       
-        <content type="html"><![CDATA[setInterval(() => {    let create_time = Math.round(new Date('2023-01-12 00:00:00').getTime() / 1000); //在此行修改建站时间    let timestamp = Math.round((new Date().getTime()) / 1000);    let second = timestamp - create_time;    let time = new Array(0, 0, 0, 0, 0);      var nol = function(h){      return h>9?h:'0'+h;    }    if (second >= 365 * 24 * 3600) {      time[0] = parseInt(second / (365 * 24 * 3600));      second %= 365 * 24 * 3600;    }    if (second >= 24 * 3600) {      time[1] = parseInt(second / (24 * 3600));      second %= 24 * 3600;    }    if (second >= 3600) {      time[2] = nol(parseInt(second / 3600));      second %= 3600;    }    if (second >= 60) {      time[3] = nol(parseInt(second / 60));      second %= 60;    }    if (second > 0) {      time[4] = nol(second);    }    if ((Number(time[2])<22) && (Number(time[2])>7)){      currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-营业中-6adea8?style=social&logo=cakephp' title='距离百年老店也就差不到一百年~'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';    }    else{      currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';    }    document.getElementById("workboard").innerHTML = currentTimeHtml;  }, 1000);]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -806,17 +901,6 @@
       <title>link</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/movies/index..html"/>
-      <url>/movies/index..html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -836,9 +920,20 @@
     
     
     <entry>
-      <title>picture</title>
-      <link href="/picture/index.html"/>
-      <url>/picture/index.html</url>
+      <title></title>
+      <link href="/js/runtime.js"/>
+      <url>/js/runtime.js</url>
+      
+        <content type="html"><![CDATA[setInterval(() => {    let create_time = Math.round(new Date('2023-01-12 00:00:00').getTime() / 1000); //在此行修改建站时间    let timestamp = Math.round((new Date().getTime()) / 1000);    let second = timestamp - create_time;    let time = new Array(0, 0, 0, 0, 0);      var nol = function(h){      return h>9?h:'0'+h;    }    if (second >= 365 * 24 * 3600) {      time[0] = parseInt(second / (365 * 24 * 3600));      second %= 365 * 24 * 3600;    }    if (second >= 24 * 3600) {      time[1] = parseInt(second / (24 * 3600));      second %= 24 * 3600;    }    if (second >= 3600) {      time[2] = nol(parseInt(second / 3600));      second %= 3600;    }    if (second >= 60) {      time[3] = nol(parseInt(second / 60));      second %= 60;    }    if (second > 0) {      time[4] = nol(second);    }    if ((Number(time[2])<22) && (Number(time[2])>7)){      currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-营业中-6adea8?style=social&logo=cakephp' title='距离百年老店也就差不到一百年~'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';    }    else{      currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';    }    document.getElementById("workboard").innerHTML = currentTimeHtml;  }, 1000);]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/movies/index..html"/>
+      <url>/movies/index..html</url>
       
         <content type="html"><![CDATA[]]></content>
       
