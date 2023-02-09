@@ -4,6 +4,206 @@
   
     
     <entry>
+      <title>操作系统-操作系统-检测和解除</title>
+      <link href="/posts/a285052d.html"/>
+      <url>/posts/a285052d.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="预防死锁"><a href="#预防死锁" class="headerlink" title="预防死锁"></a>预防死锁</h1><h3 id="死锁的检测"><a href="#死锁的检测" class="headerlink" title="死锁的检测"></a>死锁的检测</h3><p><img src="/../static/OS/30.1.png" alt="30.1"></p><p><img src="/../static/OS/30.2.png" alt="30.2"></p><p><img src="/../static/OS/30.3.png" alt="30.3"></p><h3 id="死锁的解除"><a href="#死锁的解除" class="headerlink" title="死锁的解除"></a>死锁的解除</h3><p><img src="/../static/OS/30.4.png" alt="30.4"></p><p><img src="/../static/OS/30.5.png" alt="30.5"></p><p><img src="/../static/OS/30.6.png" alt="30.6"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统-避免死锁</title>
+      <link href="/posts/77e9e571.html"/>
+      <url>/posts/77e9e571.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="避免死锁"><a href="#避免死锁" class="headerlink" title="避免死锁"></a>避免死锁</h1><p><img src="/../static/OS/29.1.png" alt="29.1"></p><p><img src="/../static/OS/29.2.png" alt="29.2"></p><p><img src="/../static/OS/29.3.png" alt="29.3"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统-预防死锁</title>
+      <link href="/posts/a725773d.html"/>
+      <url>/posts/a725773d.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="预防死锁"><a href="#预防死锁" class="headerlink" title="预防死锁"></a>预防死锁</h1><p><img src="/../static/OS/28.1.png" alt="28.1"></p><p><img src="/../static/OS/28.2.png" alt="28.2"></p><p><img src="/../static/OS/28.3.png" alt="28.3"></p><p><img src="/../static/OS/28.4.png" alt="28.4"></p><p><img src="/../static/OS/28.5.png" alt="28.5"></p><p><img src="/../static/OS/28.6.png" alt="28.6"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统的死锁的概念</title>
+      <link href="/posts/ca594063.html"/>
+      <url>/posts/ca594063.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="死锁的概念"><a href="#死锁的概念" class="headerlink" title="死锁的概念"></a>死锁的概念</h1><p><img src="/../static/OS/27.1.png" alt="27.1"></p><p><img src="/../static/OS/27.2.png" alt="27.2"></p><p><img src="/../static/OS/27.3.png" alt="27.3"></p><p><img src="/../static/OS/27.4.png" alt="27.4"></p><p><img src="/../static/OS/27.5.png" alt="27.5"></p><p><img src="/../static/OS/27.6.png" alt="27.6"></p><p><img src="/../static/OS/27.7.png" alt="27.7"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统的管程</title>
+      <link href="/posts/941b5c6a.html"/>
+      <url>/posts/941b5c6a.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="管程"><a href="#管程" class="headerlink" title="管程"></a>管程</h1><h2 id="管程的定义和基本特征"><a href="#管程的定义和基本特征" class="headerlink" title="管程的定义和基本特征"></a>管程的定义和基本特征</h2><p><img src="/../static/OS/26.1.png" alt="26.1"></p><p><img src="/../static/OS/26.2.png" alt="26.2"></p><p><img src="/../static/OS/26.4.png" alt="26.4"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计算机网络-计算机网-媒体接入控制的基本概念</title>
+      <link href="/posts/f90c031d.html"/>
+      <url>/posts/f90c031d.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="媒体接入控制的基本概念"><a href="#媒体接入控制的基本概念" class="headerlink" title="媒体接入控制的基本概念"></a>媒体接入控制的基本概念</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> jw </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机网络 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计算机网络-计算机网-点对点协议PPP</title>
+      <link href="/posts/40205be2.html"/>
+      <url>/posts/40205be2.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="点对点协议PPP"><a href="#点对点协议PPP" class="headerlink" title="点对点协议PPP"></a>点对点协议PPP</h1><p> <img src="/../static/jw/28.1.png" alt="28.1"></p><p><img src="/../static/jw/28.2.png" alt="28.2"></p><p><img src="/../static/jw/28.3.png" alt="28.3"></p><p><img src="/../static/jw/28.4.png" alt="28.4"></p><p><img src="/../static/jw/28.5.png" alt="28.5"></p><p><img src="/../static/jw/28.6.png" alt="28.6"></p><p><img src="/../static/jw/28.7.png" alt="28.7"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> jw </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机网络 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计算机网络-计算机网-可靠传输的实现机制</title>
+      <link href="/posts/4d027344.html"/>
+      <url>/posts/4d027344.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="可靠传输的实现机制-不局限于数据链路层"><a href="#可靠传输的实现机制-不局限于数据链路层" class="headerlink" title="可靠传输的实现机制(不局限于数据链路层)"></a>可靠传输的实现机制(不局限于数据链路层)</h1><h2 id="停止等待协议SW"><a href="#停止等待协议SW" class="headerlink" title="停止等待协议SW"></a>停止等待协议SW</h2><p><img src="/../static/jw/25.1.png" alt="25.1"></p><p><img src="/../static/jw/25.2.png" alt="25.2"></p><p>在数据链路层，点对点传输中不会出现确认迟到的情况，所以不需要给确认分组编号，</p><p><img src="/../static/jw/25.5.png" alt="25.5"></p><p><img src="/../static/jw/25.4.png" alt="25.4"></p><h2 id="回退N帧协议GBN"><a href="#回退N帧协议GBN" class="headerlink" title="回退N帧协议GBN"></a>回退N帧协议GBN</h2><p>累计确认：<img src="/../static/OS/25.6.png" alt="25.6"></p><p><img src="/../static/jw/25.7.png" alt="25.7"></p><p><img src="/../static/jw/25.8.png" alt="25.8"></p><h2 id="选择重传协议SR"><a href="#选择重传协议SR" class="headerlink" title="选择重传协议SR"></a>选择重传协议SR</h2><p>接收方不在采用累积确认</p><p><img src="/../static/jw/25.9.png" alt="25.9"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> jw </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机网络 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>算法-链表</title>
       <link href="/posts/adca56ac.html"/>
       <url>/posts/adca56ac.html</url>
@@ -981,6 +1181,28 @@
     
     
     <entry>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
+      
+        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: transparent !important;  }  #page-header {    background: transparent !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }  /* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */@font-face {  font-family: "yyyy";  font-weight: 400;  src: url("/font/1.woff");  font-style: normal;  font-display: block;}/* 翻页按钮居中 */#pagination {  width: 100%;  margin: auto;}/* 导航栏魔改 *//* 夜间模式菜单栏发光字 */[data-theme="dark"] #nav .site-page,[data-theme="dark"] #nav .menus_items .menus_item .menus_item_child li a {  text-shadow: 0 0 2px var(rgb(127 255 212)) !important;}/* 手机端适配 */[data-theme="dark"] #sidebar #sidebar-menus .menus_items .site-page {  text-shadow: 0 0 2px var(rgb(127 255 212)) !important;}/* 闪烁变动颜色连续渐变 */#site-name,#site-title,#site-subtitle,#post-info,.author-info__name,.author-info__description {  transition: text-shadow 1s linear !important;}/* 导航栏魔改 *//* 一级菜单居中 */#nav .menus_items {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%) !important;}/* 子菜单横向展示 */#nav .menus_items .menus_item:hover .menus_item_child {  display: flex !important;}/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */.menus_items .menus_item:nth-child(5) .menus_item_child {  left: -50px;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>categories</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -1004,10 +1226,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
+      <link href="/movies/index..html"/>
+      <url>/movies/index..html</url>
       
-        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: transparent !important;  }  #page-header {    background: transparent !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }  /* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */@font-face {  font-family: "yyyy";  font-weight: 400;  src: url("/font/1.woff");  font-style: normal;  font-display: block;}/* 翻页按钮居中 */#pagination {  width: 100%;  margin: auto;}/* 导航栏魔改 *//* 夜间模式菜单栏发光字 */[data-theme="dark"] #nav .site-page,[data-theme="dark"] #nav .menus_items .menus_item .menus_item_child li a {  text-shadow: 0 0 2px var(rgb(127 255 212)) !important;}/* 手机端适配 */[data-theme="dark"] #sidebar #sidebar-menus .menus_items .site-page {  text-shadow: 0 0 2px var(rgb(127 255 212)) !important;}/* 闪烁变动颜色连续渐变 */#site-name,#site-title,#site-subtitle,#post-info,.author-info__name,.author-info__description {  transition: text-shadow 1s linear !important;}/* 导航栏魔改 *//* 一级菜单居中 */#nav .menus_items {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%) !important;}/* 子菜单横向展示 */#nav .menus_items .menus_item:hover .menus_item_child {  display: flex !important;}/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */.menus_items .menus_item:nth-child(5) .menus_item_child {  left: -50px;}]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -1036,20 +1258,9 @@
     
     
     <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/movies/index..html"/>
-      <url>/movies/index..html</url>
+      <title>picture</title>
+      <link href="/picture/index.html"/>
+      <url>/picture/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1072,17 +1283,6 @@
       <title>tags</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>picture</title>
-      <link href="/picture/index.html"/>
-      <url>/picture/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
