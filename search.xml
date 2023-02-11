@@ -4,6 +4,156 @@
   
     
     <entry>
+      <title>操作系统-操作系统-动态分区分配算法</title>
+      <link href="/posts/d09db460.html"/>
+      <url>/posts/d09db460.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="动态分区分配算法"><a href="#动态分区分配算法" class="headerlink" title="动态分区分配算法"></a>动态分区分配算法</h1><h2 id="首次适应算法-First-Fit"><a href="#首次适应算法-First-Fit" class="headerlink" title="首次适应算法(First Fit)"></a>首次适应算法(First Fit)</h2><p><img src="/../static/OS/35.1.png" alt="35.1"></p><h2 id="最佳适应算法-Best-Fit"><a href="#最佳适应算法-Best-Fit" class="headerlink" title="最佳适应算法(Best Fit)"></a>最佳适应算法(Best Fit)</h2><p><img src="/../static/OS/35.2.png" alt="35.2"></p><p><img src="/../static/OS/35.3.png" alt="35.3"></p><h2 id="最坏适应算法-Worst-Fit"><a href="#最坏适应算法-Worst-Fit" class="headerlink" title="最坏适应算法(Worst Fit)"></a>最坏适应算法(Worst Fit)</h2><p><img src="/../static/OS/35.4.png" alt="35.4"></p><p><img src="/../static/OS/35.5.png" alt="35.5"></p><h2 id="临近适应算法-Next-Fit"><a href="#临近适应算法-Next-Fit" class="headerlink" title="临近适应算法(Next Fit)"></a>临近适应算法(Next Fit)</h2><p><img src="/../static/OS/35.8.png" alt="35.8"></p><p><img src="/../static/OS/35.6.png" alt="35.6"></p><p><img src="/../static/OS/35.7.png" alt="35.7"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统-内存空间的分配与回收</title>
+      <link href="/posts/c29bc9bd.html"/>
+      <url>/posts/c29bc9bd.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="内存空间的分配与回收"><a href="#内存空间的分配与回收" class="headerlink" title="内存空间的分配与回收"></a>内存空间的分配与回收</h1><h2 id="连续分配管理方式-进程分配的空间必须是连续的"><a href="#连续分配管理方式-进程分配的空间必须是连续的" class="headerlink" title="连续分配管理方式(进程分配的空间必须是连续的)"></a>连续分配管理方式(进程分配的空间必须是连续的)</h2><h3 id="单一连续分配"><a href="#单一连续分配" class="headerlink" title="单一连续分配"></a>单一连续分配</h3><p><img src="/../static/OS/34.1.png" alt="34.1"></p><h3 id="固定分区分配"><a href="#固定分区分配" class="headerlink" title="固定分区分配"></a>固定分区分配</h3><p><img src="/../static/OS/34.2.png" alt="34.2"></p><p><img src="/../static/OS/34.3.png" alt="34.3"></p><h3 id="动态分区分配"><a href="#动态分区分配" class="headerlink" title="动态分区分配"></a>动态分区分配</h3><p><img src="/../static/OS/34.4.png" alt="34.4"></p><p><img src="/../static/OS/34.5.png" alt="34.5"></p><p><img src="/../static/OS/34.6.png" alt="34.6"></p><p><img src="/../static/OS/34.7.png" alt="34.7"></p><h2 id="非连续分配管理方式"><a href="#非连续分配管理方式" class="headerlink" title="非连续分配管理方式"></a>非连续分配管理方式</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统-覆盖与交换</title>
+      <link href="/posts/a009ab56.html"/>
+      <url>/posts/a009ab56.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="内存空间的扩充"><a href="#内存空间的扩充" class="headerlink" title="内存空间的扩充"></a>内存空间的扩充</h1><h2 id="覆盖技术"><a href="#覆盖技术" class="headerlink" title="覆盖技术"></a>覆盖技术</h2><p><img src="/../static/OS/33.1.png" alt="33.1"></p><p><img src="/../static/OS/33.2.png" alt="33.2"></p><h2 id="交换技术"><a href="#交换技术" class="headerlink" title="交换技术"></a>交换技术</h2><p><img src="/../static/OS/33.3.png" alt="33.3"></p><p><img src="/../static/OS/33.4.png" alt="33.4"></p><p><img src="/../static/OS/33.5.png" alt="33.5"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统-内存的基本知识</title>
+      <link href="/posts/78617ef6.html"/>
+      <url>/posts/78617ef6.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="/../static/OS/32.1.png" alt="32.1"></p><p><img src="/../static/OS/32.2.png" alt="32.2"></p><p><img src="/../static/OS/32.3.png" alt="32.3"></p><p><img src="/../static/OS/32.4.png" alt="32.4"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统-操作系统-内存的基本知识</title>
+      <link href="/posts/78617ef6.html"/>
+      <url>/posts/78617ef6.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="内存的基本知识"><a href="#内存的基本知识" class="headerlink" title="内存的基本知识"></a>内存的基本知识</h1><p><img src="/../static/OS/31.1.png" alt="31.1"></p><p><img src="/../static/OS/31.2.png" alt="31.2"></p><p><img src="/../static/OS/31.3.png" alt="31.3"></p><p><img src="/../static/OS/31.4.png" alt="31.4"></p><p><img src="/../static/OS/31.5.png" alt="31.5"></p><p><img src="/../static/OS/31.6.png" alt="31.6"></p><p><img src="/../static/OS/31.7.png" alt="31.7"></p><p><img src="/../static/OS/31.8.png" alt="31.8"></p><p><img src="/../static/OS/31.9.png" alt="31.9"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>算法-set</title>
+      <link href="/posts/91524b53.html"/>
+      <url>/posts/91524b53.html</url>
+      
+        <content type="html"><![CDATA[<p>和 map、multimap 容器不同，使用 set 容器存储的各个键值对，要求键 key 和值 value 必须相等。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&lt;<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;a&#x27;</span>&gt;, &lt;<span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;b&#x27;</span>&gt;, &lt;<span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;c&#x27;</span>&gt;&#125;</span><br></pre></td></tr></table></figure><p>set 容器定义于<code>&lt;set&gt;</code>头文件，并位于 std 命名空间中。因此如果想在程序中使用 set 容器，该程序代码应先包含如下语句：</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;set&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br></pre></td></tr></table></figure><p>begin() 和 end()：返回指向 set 集合的第一个元素和最后一个元素的迭代器。</p><p>empty()：如果 set 集合为空，则返回 true，否则返回 false。</p><p>size()：返回 set 集合中元素的数量。</p><p>insert(element)：在 set 集合中插入一个元素。</p><p>erase(element)：从 set 集合中删除某个元素。</p><p>clear()：清空 set 集合中的所有元素。</p><p>count(element)：如果 set 集合中存在某个元素，则返回 1，否则返回 0。</p><p>find(element)：在 set 集合中查找某个元素，如果存在则返回其迭代器，否则返回 end()。</p><p>lower_bound(element) 和 upper_bound(element)：返回第一个不小于指定元素的迭代器（lower_bound）和第一个大于指定元素的迭代器（upper_bound）。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> algorithm </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>操作系统-操作系统-检测和解除</title>
       <link href="/posts/a285052d.html"/>
       <url>/posts/a285052d.html</url>
@@ -296,7 +446,7 @@
       <link href="/posts/a4b89a7d.html"/>
       <url>/posts/a4b89a7d.html</url>
       
-        <content type="html"><![CDATA[<p>匹配（消除）问题也是栈的擅长所在。</p><p>采用虚拟头结点时，建议所有新开的结点从虚拟头结点开始，少判断空指针。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>匹配（消除）问题也是栈的擅长所在。</strong></p><p><strong>给你一个元素，判断这个元素在这个集合是否出现过  —用哈希表</strong></p><p><strong>采用虚拟头结点时，建议所有新开的结点从虚拟头结点开始，少判断空指针。</strong></p><p><strong>需要固定规律一段一段去处理字符串的时候，要想想在在for循环的表达式上做做文章</strong></p>]]></content>
       
       
       <categories>
@@ -667,7 +817,7 @@
       <link href="/posts/bba1d2c5.html"/>
       <url>/posts/bba1d2c5.html</url>
       
-        <content type="html"><![CDATA[<p>sting 用printf输出     </p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">string str=<span class="string">&quot;hello&quot;</span>;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%s&quot;</span>,str.<span class="built_in">c_str</span>());    <span class="comment">// 调用c_str()函数</span></span><br><span class="line"> </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<p>sting 用printf输出     </p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">string str=<span class="string">&quot;hello&quot;</span>;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%s&quot;</span>,str.<span class="built_in">c_str</span>());    <span class="comment">// 调用c_str()函数</span></span><br><span class="line"> </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>将数组转set</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">set&lt;<span class="type">int</span>&gt; <span class="title">st</span><span class="params">(a.begin(), a.end())</span></span>;</span><br></pre></td></tr></table></figure><p>与map不同，set中数据只能通过<code>insert()</code>函数进行插入。</p><p>reverse语法 ：</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">reverse</span>(begin, begin + n)</span><br></pre></td></tr></table></figure><p>n是翻转元素的个数</p><p>翻转范围为<code>[begin,begin + n)</code>，是左闭右开区间 </p>]]></content>
       
       
       <categories>
@@ -1170,6 +1320,17 @@
     
     
     <entry>
+      <title></title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>categories</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -1214,9 +1375,9 @@
     
     
     <entry>
-      <title></title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1226,19 +1387,8 @@
     
     <entry>
       <title></title>
-      <link href="/js/runtime.js"/>
-      <url>/js/runtime.js</url>
-      
-        <content type="html"><![CDATA[setInterval(() => {    let create_time = Math.round(new Date('2023-01-12 00:00:00').getTime() / 1000); //在此行修改建站时间    let timestamp = Math.round((new Date().getTime()) / 1000);    let second = timestamp - create_time;    let time = new Array(0, 0, 0, 0, 0);      var nol = function(h){      return h>9?h:'0'+h;    }    if (second >= 365 * 24 * 3600) {      time[0] = parseInt(second / (365 * 24 * 3600));      second %= 365 * 24 * 3600;    }    if (second >= 24 * 3600) {      time[1] = parseInt(second / (24 * 3600));      second %= 24 * 3600;    }    if (second >= 3600) {      time[2] = nol(parseInt(second / 3600));      second %= 3600;    }    if (second >= 60) {      time[3] = nol(parseInt(second / 60));      second %= 60;    }    if (second > 0) {      time[4] = nol(second);    }    if ((Number(time[2])<22) && (Number(time[2])>7)){      currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-营业中-6adea8?style=social&logo=cakephp' title='距离百年老店也就差不到一百年~'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';    }    else{      currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';    }    document.getElementById("workboard").innerHTML = currentTimeHtml;  }, 1000);]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <link href="/movies/index..html"/>
+      <url>/movies/index..html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1281,10 +1431,10 @@
     
     <entry>
       <title></title>
-      <link href="/movies/index..html"/>
-      <url>/movies/index..html</url>
+      <link href="/js/runtime.js"/>
+      <url>/js/runtime.js</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[setInterval(() => {    let create_time = Math.round(new Date('2023-01-12 00:00:00').getTime() / 1000); //在此行修改建站时间    let timestamp = Math.round((new Date().getTime()) / 1000);    let second = timestamp - create_time;    let time = new Array(0, 0, 0, 0, 0);      var nol = function(h){      return h>9?h:'0'+h;    }    if (second >= 365 * 24 * 3600) {      time[0] = parseInt(second / (365 * 24 * 3600));      second %= 365 * 24 * 3600;    }    if (second >= 24 * 3600) {      time[1] = parseInt(second / (24 * 3600));      second %= 24 * 3600;    }    if (second >= 3600) {      time[2] = nol(parseInt(second / 3600));      second %= 3600;    }    if (second >= 60) {      time[3] = nol(parseInt(second / 60));      second %= 60;    }    if (second > 0) {      time[4] = nol(second);    }    if ((Number(time[2])<22) && (Number(time[2])>7)){      currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-营业中-6adea8?style=social&logo=cakephp' title='距离百年老店也就差不到一百年~'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';    }    else{      currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';    }    document.getElementById("workboard").innerHTML = currentTimeHtml;  }, 1000);]]></content>
       
     </entry>
     
